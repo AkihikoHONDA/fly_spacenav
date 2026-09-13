@@ -1,0 +1,236 @@
+{
+  "morphologies": {
+    "T2": {
+      "type": "T2",
+      "root_id": "720575940608937923",
+      "side": "right",
+      "annotation_row": {
+        "supervoxel_id": "83040753731302021",
+        "root_id": "720575940608937923",
+        "pos_x": "180528.0",
+        "pos_y": "90120.0",
+        "pos_z": "4996.0",
+        "soma_x": "180528",
+        "soma_y": "90120",
+        "soma_z": "4996",
+        "nucleus_id": "7483559",
+        "flow": "intrinsic",
+        "super_class": "optic",
+        "cell_class": "ME>LO",
+        "cell_sub_class": "",
+        "supertype": "",
+        "cell_type": "T2",
+        "hemibrain_type": "",
+        "ito_lee_hemilineage": "",
+        "hartenstein_hemilineage": "",
+        "top_nt": "acetylcholine",
+        "top_nt_conf": "0.822525040861509",
+        "known_nt": "acetylcholine",
+        "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+        "side": "right",
+        "nerve": "",
+        "vfb_id": "fw050401",
+        "fbbt_id": "",
+        "status": "",
+        "dimorphism": "isomorphic",
+        "matching_notes": "",
+        "fru_dsx": "",
+        "synonyms": ""
+      },
+      "path": "assets/phase3v/720575940608937923.precomputed",
+      "sha256": "aa1ab497abb0dea7633944f5cf09ac413528d3266dfe2ad58ccf13fa561d2de3",
+      "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940608937923",
+      "vertices": 1099,
+      "edges": 1098,
+      "bounds_nm": [
+        [
+          657516.875,
+          315798.6875,
+          111442.7578125
+        ],
+        [
+          730540.1875,
+          361955.75,
+          200131.3125
+        ]
+      ]
+    },
+    "T5d": {
+      "type": "T5d",
+      "root_id": "720575940623043327",
+      "side": "right",
+      "annotation_row": {
+        "supervoxel_id": "83039104598146981",
+        "root_id": "720575940623043327",
+        "pos_x": "180240.0",
+        "pos_y": "66056.0",
+        "pos_z": "6085.0",
+        "soma_x": "180240",
+        "soma_y": "66056",
+        "soma_z": "6085",
+        "nucleus_id": "7422072",
+        "flow": "intrinsic",
+        "super_class": "optic",
+        "cell_class": "LO>LOP",
+        "cell_sub_class": "",
+        "supertype": "",
+        "cell_type": "T5d",
+        "hemibrain_type": "",
+        "ito_lee_hemilineage": "",
+        "hartenstein_hemilineage": "",
+        "top_nt": "acetylcholine",
+        "top_nt_conf": "0.5718971641396794",
+        "known_nt": "acetylcholine; acetylcholine",
+        "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+        "side": "right",
+        "nerve": "",
+        "vfb_id": "fw050384",
+        "fbbt_id": "",
+        "status": "",
+        "dimorphism": "isomorphic",
+        "matching_notes": "",
+        "fru_dsx": "",
+        "synonyms": ""
+      },
+      "path": "assets/phase3v/720575940623043327.precomputed",
+      "sha256": "b3e2457d6ab57c6a6317818eef8c434390ab8934625c20367dbddc7c7ff796e0",
+      "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940623043327",
+      "vertices": 631,
+      "edges": 630,
+      "bounds_nm": [
+        [
+          693440.5625,
+          237418.609375,
+          209295.375
+        ],
+        [
+          725337.0,
+          264843.5625,
+          243817.1875
+        ]
+      ]
+    },
+    "T4a": {
+      "type": "T4a",
+      "root_id": "720575940605852192",
+      "side": "right",
+      "annotation_row": {
+        "supervoxel_id": "82546523388390015",
+        "root_id": "720575940605852192",
+        "pos_x": "173504.0",
+        "pos_y": "65768.0",
+        "pos_z": "5687.0",
+        "soma_x": "173504",
+        "soma_y": "65768",
+        "soma_z": "5687",
+        "nucleus_id": "7418904",
+        "flow": "intrinsic",
+        "super_class": "optic",
+        "cell_class": "ME>LOP",
+        "cell_sub_class": "",
+        "supertype": "",
+        "cell_type": "T4a",
+        "hemibrain_type": "",
+        "ito_lee_hemilineage": "",
+        "hartenstein_hemilineage": "",
+        "top_nt": "acetylcholine",
+        "top_nt_conf": "0.6297303492504952",
+        "known_nt": "acetylcholine",
+        "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+        "side": "right",
+        "nerve": "",
+        "vfb_id": "fw050385",
+        "fbbt_id": "",
+        "status": "",
+        "dimorphism": "isomorphic",
+        "matching_notes": "",
+        "fru_dsx": "",
+        "synonyms": ""
+      },
+      "path": "assets/phase1b/720575940605852192.precomputed",
+      "sha256": "636df53b81276202a6209a128f5e7636141e14cd44eb094c3f9fff9402877858",
+      "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940605852192",
+      "vertices": 829,
+      "edges": 828,
+      "bounds_nm": [
+        [
+          694117.625,
+          242782.671875,
+          132667.828125
+        ],
+        [
+          754375.0,
+          263072.625,
+          228935.375
+        ]
+      ]
+    }
+  },
+  "selection": "first exact cell_type row with side=right in pinned official table; one per type",
+  "dataset": "FlyWire female FAFB",
+  "materialization": 783,
+  "coordinate_system": "FAFB14.1",
+  "source_units": "nm",
+  "display_transform": "0.001 nm to um only; no translation, rotation, reflection or fit",
+  "annotation": {
+    "url": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/8587524c1748ce5ef2080822a2fc890fc03bf597/supplemental_files/Supplemental_file1_neuron_annotations.tsv",
+    "commit": "8587524c1748ce5ef2080822a2fc890fc03bf597",
+    "sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+    "cache": "assets/phase1b/sources/annotations.tsv"
+  },
+  "coordinate_evidence": [
+    "https://fafbseg-py.readthedocs.io/en/latest/source/generated/fafbseg.flywire.get_skeletons.html",
+    "https://fafbseg-py.readthedocs.io/en/latest/source/generated/fafbseg.flywire.get_neuropil_volumes.html",
+    "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/info"
+  ],
+  "terms": {
+    "flywire": "CC-BY-NC 4.0 for edits/annotations in https://flywire.ai/tos",
+    "schlegel_supplement": "CC-BY-4.0 at https://zenodo.org/records/10877326 (related bulk skeleton release, not downloaded)",
+    "endpoint": "No separate license field in individual endpoint info. Keep upstream attribution and noncommercial restriction; do not infer broader redistribution permission.",
+    "attribution": "FlyWire Consortium; Berg et al. 2025; Schlegel et al. 2024; Matsliah et al. 2024; Dorkenwald et al. 2024. JFRC2 background: Jenett et al.; fafbseg.",
+    "annotation_citation_source": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/8587524c1748ce5ef2080822a2fc890fc03bf597/README.md"
+  },
+  "one_to_one_model_cell_mapping": false,
+  "model_hemisphere_assigned": false,
+  "acquired_types": [
+    "T2",
+    "T5d"
+  ],
+  "reused_types": [
+    "T4a"
+  ],
+  "files": {
+    "assets/phase3v/720575940623043327.precomputed": {
+      "sha256": "b3e2457d6ab57c6a6317818eef8c434390ab8934625c20367dbddc7c7ff796e0",
+      "bytes": 15144
+    },
+    "assets/phase3v/720575940608937923.swc": {
+      "sha256": "fae7da1404f8bb2c7dd0a9506c9783e434fca9d986561aab4ae0fc6a2a2cdf9b",
+      "bytes": 52750
+    },
+    "assets/phase3v/720575940623043327.swc": {
+      "sha256": "bdc1684cb4284f91f4f75374dc99597b2aec929bf740be4c769c0704dc57f0af",
+      "bytes": 30177
+    },
+    "assets/phase3v/720575940608937923.precomputed": {
+      "sha256": "aa1ab497abb0dea7633944f5cf09ac413528d3266dfe2ad58ccf13fa561d2de3",
+      "bytes": 26376
+    },
+    "assets/phase3v/sources/flywire-tos.html": {
+      "sha256": "cb8f78d27d7d2e2995f18dc66397b8a4c4e0154cc6b9b46a5e59b32ef5c54ee6",
+      "bytes": 26050
+    },
+    "assets/phase3v/sources/info.json": {
+      "sha256": "13489fc0a8739a19547be94abde9ba7cd07c24fafcfeb448ecf4aa4ccb7432f2",
+      "bytes": 170
+    },
+    "assets/phase1b/720575940605852192.precomputed": {
+      "sha256": "636df53b81276202a6209a128f5e7636141e14cd44eb094c3f9fff9402877858",
+      "bytes": 19896
+    },
+    "assets/phase1b/sources/annotations.tsv": {
+      "sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+      "bytes": 31718505
+    }
+  }
+}

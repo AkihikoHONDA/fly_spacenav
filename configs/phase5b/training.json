@@ -1,0 +1,125 @@
+{
+  "n": 0.0011,
+  "a_max": 0.005,
+  "dt_phys": 0.5,
+  "dt_neural": 0.01,
+  "max_phys_seconds": 600,
+  "observe_seconds": 10,
+  "success_position_m": 0.25,
+  "success_speed_m_s": 0.01,
+  "success_hold_seconds": 10,
+  "Q_diag": [
+    0.01,
+    0.1111111111111111,
+    25,
+    25
+  ],
+  "R_diag": [
+    40000,
+    40000
+  ],
+  "camera": {
+    "height": 64,
+    "width": 64,
+    "hfov_degrees": 40,
+    "target_radius_m": 1,
+    "background": 0.5,
+    "foreground": 1,
+    "supersampling": 8,
+    "boresight": [
+      0.7071067811865476,
+      -0.7071067811865476
+    ],
+    "projection": "circular envelope of exact pinhole sphere silhouette; exact horizontal tangent bounds"
+  },
+  "splits": {
+    "train": {
+      "count": 36,
+      "near": 0,
+      "seed": 5101
+    },
+    "validation": {
+      "count": 12,
+      "near": 0,
+      "seed": 5102
+    },
+    "test": {
+      "count": 8,
+      "near": 0,
+      "seed": 5103
+    }
+  },
+  "pool_bins": 4,
+  "history_lags": [
+    0,
+    5
+  ],
+  "ridge_lambdas": [
+    0.0001,
+    0.01,
+    1
+  ],
+  "constant_std_threshold": 1e-08,
+  "selection_rule": "maximum validation closed-loop successes; then minimum mean final position error; then minimum normalized teacher-forced MSE; then lag and lambda",
+  "augmentation": {
+    "max_rounds": 0,
+    "reason": "Six original candidates only; no additional training round"
+  },
+  "display": {
+    "cell_type": "T4a",
+    "rms_upper": 0.22,
+    "signed_limit": 1.5,
+    "playback_speed": 15,
+    "velocity_arrow_seconds": 20,
+    "acceleration_arrow_seconds_squared": 400
+  },
+  "disk_budget_gib": 8,
+  "goal_direction": [
+    -0.7071067811865476,
+    0.7071067811865476
+  ],
+  "standoff_radius_m": 5.0,
+  "collision_margin_m": 0.25,
+  "max_range_m": 40.0,
+  "approach_radial_m": [
+    25.0,
+    35.0
+  ],
+  "cross_offset_m": [
+    -4.0,
+    4.0
+  ],
+  "approach_velocity_m_s": [
+    -0.02,
+    0.02
+  ],
+  "near_position_offset_m": [
+    -0.5,
+    0.5
+  ],
+  "near_velocity_m_s": [
+    -0.01,
+    0.01
+  ],
+  "teacher_gate": {
+    "required_success": 56,
+    "total": 56,
+    "resampling": false
+  },
+  "teacher_cost_frame": "approach_radial_tangential",
+  "teacher_gate_attempt": "rotated_cost",
+  "nominal_gate": {
+    "minimum_success": 6,
+    "total": 8,
+    "rule": "Stop before truth when H0 successes < 6/8"
+  },
+  "phase": "5B",
+  "sampling": "independent randomized Latin hypercube per split, four dimensions",
+  "units": {
+    "position": "m",
+    "velocity": "m/s",
+    "acceleration": "m/s^2",
+    "time": "s",
+    "n": "rad/s"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "conditions": [
+    {
+      "name": "H0",
+      "dynamics": "HCW",
+      "j2": false,
+      "srp": false,
+      "density_kg_m3": 0,
+      "residual_m_s2": 0,
+      "midcourse": false,
+      "category": "nominal"
+    },
+    {
+      "name": "T0",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": false,
+      "srp": false,
+      "density_kg_m3": 0,
+      "residual_m_s2": 0,
+      "midcourse": false,
+      "category": "nonlinear_only"
+    },
+    {
+      "name": "T1",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": false,
+      "density_kg_m3": 0,
+      "residual_m_s2": 0,
+      "midcourse": false,
+      "category": "physical"
+    },
+    {
+      "name": "E0",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": true,
+      "density_kg_m3": 1e-12,
+      "residual_m_s2": 0,
+      "midcourse": false,
+      "category": "physical"
+    },
+    {
+      "name": "Elo",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": true,
+      "density_kg_m3": 3e-13,
+      "residual_m_s2": 0,
+      "midcourse": false,
+      "category": "physical"
+    },
+    {
+      "name": "Ehi",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": true,
+      "density_kg_m3": 3e-12,
+      "residual_m_s2": 0,
+      "midcourse": false,
+      "category": "physical"
+    },
+    {
+      "name": "R1",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": true,
+      "density_kg_m3": 1e-12,
+      "residual_m_s2": 1e-05,
+      "midcourse": false,
+      "category": "residual_stress"
+    },
+    {
+      "name": "R3",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": true,
+      "density_kg_m3": 1e-12,
+      "residual_m_s2": 3e-05,
+      "midcourse": false,
+      "category": "residual_stress"
+    },
+    {
+      "name": "R5",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": true,
+      "density_kg_m3": 1e-12,
+      "residual_m_s2": 5e-05,
+      "midcourse": false,
+      "category": "residual_stress"
+    },
+    {
+      "name": "RM3",
+      "dynamics": "nonlinear_equatorial_ECI",
+      "j2": true,
+      "srp": true,
+      "density_kg_m3": 1e-12,
+      "residual_m_s2": 3e-05,
+      "midcourse": true,
+      "category": "residual_stress"
+    }
+  ],
+  "main_demo": "test_00",
+  "demo_conditions": [
+    "H0",
+    "E0",
+    "RM3"
+  ],
+  "playback_speed": 15,
+  "controller_input": "image only",
+  "state_baseline": "nominal HCW LQR; perfect current relative state; no truth feedforward"
+}

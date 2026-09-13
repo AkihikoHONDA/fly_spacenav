@@ -1,0 +1,62 @@
+{
+  "mu_E": 398600441800000.0,
+  "R_E": 6378137.0,
+  "J2": 0.00108262668,
+  "omega_E": 7.292115e-05,
+  "n": 0.0011,
+  "chief_radius_m": 6906385.27265002,
+  "P_srp": 4.57e-06,
+  "sun_direction_ECI": [
+    0.7071067811865475,
+    0.7071067811865475
+  ],
+  "target": {
+    "mass": 500.0,
+    "A_srp": 4.0,
+    "C_R": 1.3,
+    "A_drag": 4.0,
+    "C_D": 2.2
+  },
+  "chaser": {
+    "mass": 100.0,
+    "A_srp": 5.0,
+    "C_R": 1.5,
+    "A_drag": 5.0,
+    "C_D": 2.2
+  },
+  "residual_direction_ECI": [
+    0.0,
+    1.0
+  ],
+  "residual_on_s": 120.0,
+  "residual_off_s": 180.0,
+  "substeps": 4,
+  "dt_phys": 0.5,
+  "cylindrical_shadow": true,
+  "accuracy_gate": {
+    "duration_s": 600.0,
+    "absolute_position_error_m": 0.0001,
+    "absolute_velocity_error_m_s": 1e-07,
+    "small_separation_duration_s": 60.0,
+    "small_separation_position_error_m": 1e-05,
+    "small_separation_velocity_error_m_s": 1e-07
+  },
+  "units": {
+    "mu_E": "m^3/s^2",
+    "R_E": "m",
+    "omega_E": "rad/s",
+    "J2": "dimensionless",
+    "P_srp": "N/m^2",
+    "density": "kg/m^3",
+    "mass": "kg",
+    "area": "m^2",
+    "state": "ECI m, m/s",
+    "residual": "m/s^2"
+  },
+  "sources": {
+    "earth": "https://earth-info.nga.mil/?action=wgs84&dir=wgs84",
+    "J2": "https://kelvins.esa.int/gtoc9-kessler-run/constants/",
+    "SRP": "https://ntrs.nasa.gov/api/citations/20240004259/downloads/GEONSMS_R3_0_NASA-TP-20240004259.pdf",
+    "density": "https://ccmc.gsfc.nasa.gov/models/NRLMSIS~00/"
+  }
+}

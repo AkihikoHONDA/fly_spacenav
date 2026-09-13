@@ -1,0 +1,41 @@
+{
+  "cell_type": "T4a",
+  "morphology_id": "720575940605852192",
+  "source_directory": "outputs/phase1",
+  "existing_trials": [
+    "static",
+    "right",
+    "left",
+    "expand"
+  ],
+  "output_directory": "outputs/phase1b",
+  "dt": 0.01,
+  "rms_upper": 0.22,
+  "rms_upper_method": "ceil(max RMS over four verified Phase 1 trials * 100) / 100; fixed once before the added trial",
+  "calibration_max_rms": 0.21757323818638996,
+  "signed_limit": 1.5,
+  "playback_speed": 0.5,
+  "reset_gap_seconds": 0.2,
+  "background_regions": [
+    "ME_L",
+    "LO_L",
+    "LOP_L",
+    "FB",
+    "EB"
+  ],
+  "outline_regions": [
+    "ME_R",
+    "LOP_R"
+  ],
+  "additional_stimulus": {
+    "stage_seconds": 0.5,
+    "speed_px_per_second": 24,
+    "stages": [
+      "static",
+      "right",
+      "stop",
+      "left",
+      "stop"
+    ]
+  }
+}

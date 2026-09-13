@@ -5,4 +5,12 @@ __pycache__/
 *.egg-info/
 .pytest_cache/
 .cache/
-docs/
+# Keep selected documentation; generated evidence and task attachments stay local.
+docs/*
+!docs/README.md
+!docs/getting_started.md
+!docs/development_history.md
+!docs/project.md
+!docs/phase*_report.md
+!docs/assets_manifest.json
+!docs/anatomy_mapping*.json

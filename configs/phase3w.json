@@ -1,0 +1,42 @@
+{
+  "count_per_type": 12,
+  "seeds": {
+    "T2": 310401,
+    "T4a": 310402,
+    "T5d": 310403
+  },
+  "sampling": "existing representative fixed + uniform 11 from stable integer-root sorted exact right-side population; PCG64",
+  "brain_eye": {
+    "position": [
+      490,
+      -400,
+      160
+    ],
+    "look_target": [
+      490,
+      254,
+      134
+    ],
+    "eye_up": [
+      0,
+      0,
+      1
+    ]
+  },
+  "morphology_radius_ui": 1.2,
+  "morphology_alpha": 255,
+  "context_radius_ui": 0.12,
+  "context_rgba": [
+    65,
+    69,
+    78,
+    130
+  ],
+  "right_context_radius_ui": 0.18,
+  "right_context_rgba": [
+    75,
+    79,
+    88,
+    170
+  ]
+}

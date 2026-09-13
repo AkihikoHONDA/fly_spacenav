@@ -1,0 +1,114 @@
+{
+  "n": 0.0011,
+  "x_goal": 10,
+  "a_max": 0.005,
+  "dt_phys": 0.5,
+  "dt_neural": 0.01,
+  "max_phys_seconds": 400,
+  "observe_seconds": 10,
+  "success_position_m": 0.25,
+  "success_speed_m_s": 0.01,
+  "success_hold_seconds": 10,
+  "x_bounds_m": [
+    5,
+    40
+  ],
+  "Q_diag": [
+    0.01,
+    0.1111111111111111,
+    25,
+    25
+  ],
+  "R_diag": [
+    40000,
+    40000
+  ],
+  "camera": {
+    "height": 64,
+    "width": 64,
+    "hfov_degrees": 40,
+    "target_radius_m": 1,
+    "background": 0.5,
+    "foreground": 1,
+    "supersampling": 8
+  },
+  "splits": {
+    "train": {
+      "count": 24,
+      "near": 8,
+      "seed": 2101
+    },
+    "validation": {
+      "count": 6,
+      "near": 2,
+      "seed": 2102
+    },
+    "test": {
+      "count": 12,
+      "near": 4,
+      "seed": 2103
+    }
+  },
+  "approach_bounds": [
+    [
+      14,
+      22
+    ],
+    [
+      -2,
+      2
+    ],
+    [
+      -0.02,
+      0.02
+    ],
+    [
+      -0.02,
+      0.02
+    ]
+  ],
+  "near_bounds": [
+    [
+      9.5,
+      10.5
+    ],
+    [
+      -0.5,
+      0.5
+    ],
+    [
+      -0.01,
+      0.01
+    ],
+    [
+      -0.01,
+      0.01
+    ]
+  ],
+  "pool_bins": 4,
+  "history_lags": [
+    0,
+    5
+  ],
+  "ridge_lambdas": [
+    0.0001,
+    0.01,
+    1
+  ],
+  "constant_std_threshold": 1e-8,
+  "selection_rule": "maximum validation closed-loop successes; then minimum mean final position error; then minimum normalized teacher-forced MSE; then lag and lambda",
+  "augmentation": {
+    "max_rounds": 1,
+    "max_train_episodes": 8,
+    "trigger": "selected teacher-forced normalized RMSE < 0.25 and validation success < 6"
+  },
+  "display": {
+    "cell_type": "T4a",
+    "rms_upper": 0.22,
+    "signed_limit": 1.5,
+    "playback_speed": 20,
+    "velocity_arrow_seconds": 20,
+    "acceleration_arrow_seconds_squared": 400
+  },
+  "disk_budget_gib": 5
+}

@@ -1,0 +1,5238 @@
+{
+  "dataset": "FlyWire female FAFB",
+  "materialization": 783,
+  "coordinate_system": "FAFB14.1",
+  "source_units": "nm",
+  "display_transform": "0.001 nm to um only; no translation, rotation, reflection or fit",
+  "annotation": {
+    "url": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/8587524c1748ce5ef2080822a2fc890fc03bf597/supplemental_files/Supplemental_file1_neuron_annotations.tsv",
+    "commit": "8587524c1748ce5ef2080822a2fc890fc03bf597",
+    "sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+    "cache": "assets/phase1b/sources/annotations.tsv"
+  },
+  "coordinate_evidence": [
+    "https://fafbseg-py.readthedocs.io/en/latest/source/generated/fafbseg.flywire.get_skeletons.html",
+    "https://fafbseg-py.readthedocs.io/en/latest/source/generated/fafbseg.flywire.get_neuropil_volumes.html",
+    "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/info"
+  ],
+  "terms": {
+    "flywire": "CC-BY-NC 4.0 for edits/annotations in https://flywire.ai/tos",
+    "schlegel_supplement": "CC-BY-4.0 at https://zenodo.org/records/10877326 (related bulk skeleton release, not downloaded)",
+    "endpoint": "No separate license field in individual endpoint info. Keep upstream attribution and noncommercial restriction; do not infer broader redistribution permission.",
+    "attribution": "FlyWire Consortium; Berg et al. 2025; Schlegel et al. 2024; Matsliah et al. 2024; Dorkenwald et al. 2024. JFRC2 background: Jenett et al.; fafbseg.",
+    "annotation_citation_source": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/8587524c1748ce5ef2080822a2fc890fc03bf597/README.md"
+  },
+  "one_to_one_model_cell_mapping": false,
+  "model_hemisphere_assigned": false,
+  "morphologies": {
+    "T2": [
+      {
+        "root_id": "720575940608937923",
+        "annotation_row": {
+          "supervoxel_id": "83040753731302021",
+          "root_id": "720575940608937923",
+          "pos_x": "180528.0",
+          "pos_y": "90120.0",
+          "pos_z": "4996.0",
+          "soma_x": "180528",
+          "soma_y": "90120",
+          "soma_z": "4996",
+          "nucleus_id": "7483559",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.822525040861509",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050401",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940608937923",
+        "path": "assets/phase3v/720575940608937923.precomputed",
+        "bytes": 26376,
+        "sha256": "aa1ab497abb0dea7633944f5cf09ac413528d3266dfe2ad58ccf13fa561d2de3",
+        "vertices": 1099,
+        "edges": 1098,
+        "bounds_nm": [
+          [
+            657516.875,
+            315798.6875,
+            111442.7578125
+          ],
+          [
+            730540.1875,
+            361955.75,
+            200131.3125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940612381925",
+        "annotation_row": {
+          "supervoxel_id": "83532922690553641",
+          "root_id": "720575940612381925",
+          "pos_x": "187512.0",
+          "pos_y": "84383.0",
+          "pos_z": "5346.0",
+          "soma_x": "187480",
+          "soma_y": "84376",
+          "soma_z": "5349",
+          "nucleus_id": "7745329",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7820166319292571",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw090302",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940612381925",
+        "path": "assets/phase3p/720575940612381925.precomputed",
+        "bytes": 26592,
+        "sha256": "a19a2d72cf5c81bf1c7a9ff3a7f2160220995d9813a3103e0ce99794564b6774",
+        "vertices": 1108,
+        "edges": 1107,
+        "bounds_nm": [
+          [
+            673018.125,
+            308409.15625,
+            113553.59375
+          ],
+          [
+            762493.75,
+            353696.96875,
+            214131.59375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940612547481",
+        "annotation_row": {
+          "supervoxel_id": "83533335007560038",
+          "root_id": "720575940612547481",
+          "pos_x": "188016.0",
+          "pos_y": "90096.0",
+          "pos_z": "5473.0",
+          "soma_x": "188016",
+          "soma_y": "90096",
+          "soma_z": "5473",
+          "nucleus_id": "7745857",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7594410216445451",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw067854",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940612547481",
+        "path": "assets/phase3p/720575940612547481.precomputed",
+        "bytes": 28632,
+        "sha256": "dce14c94122d7fce8b33aedd2a070dfc4566244a6931704f5a28338842605734",
+        "vertices": 1193,
+        "edges": 1192,
+        "bounds_nm": [
+          [
+            690157.5,
+            318124.625,
+            148040.0625
+          ],
+          [
+            793620.5625,
+            387679.25,
+            218762.78125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940615146919",
+        "annotation_row": {
+          "supervoxel_id": "83814191508873350",
+          "root_id": "720575940615146919",
+          "pos_x": "192157.0",
+          "pos_y": "81252.0",
+          "pos_z": "5395.0",
+          "soma_x": "200848",
+          "soma_y": "83368",
+          "soma_z": "5750",
+          "nucleus_id": "8215601",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7602215205849615",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw104653",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940615146919",
+        "path": "assets/phase3p/720575940615146919.precomputed",
+        "bytes": 32736,
+        "sha256": "b2587c4f1b61b083a200e3a7a294b5b35b0cb9541b0a6d277dc18a69418b9355",
+        "vertices": 1364,
+        "edges": 1363,
+        "bounds_nm": [
+          [
+            713711.75,
+            292986.59375,
+            149906.15625
+          ],
+          [
+            827403.0,
+            354466.90625,
+            230640.546875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940620132401",
+        "annotation_row": {
+          "supervoxel_id": "84093879712380212",
+          "root_id": "720575940620132401",
+          "pos_x": "195565.0",
+          "pos_y": "54309.0",
+          "pos_z": "5098.0",
+          "soma_x": "201736",
+          "soma_y": "54264",
+          "soma_z": "5684",
+          "nucleus_id": "8121169",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7827983273048098",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw082804",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940620132401",
+        "path": "assets/phase3p/720575940620132401.precomputed",
+        "bytes": 31248,
+        "sha256": "f6ed1dd296b9387ecc6a3600594b054694aff652eb6c63f64d734907daf5df94",
+        "vertices": 1302,
+        "edges": 1301,
+        "bounds_nm": [
+          [
+            732616.125,
+            201275.484375,
+            176395.0625
+          ],
+          [
+            828096.0,
+            228091.953125,
+            231640.359375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940623787533",
+        "annotation_row": {
+          "supervoxel_id": "84798598080026469",
+          "root_id": "720575940623787533",
+          "pos_x": "205824.0",
+          "pos_y": "70144.0",
+          "pos_z": "5722.0",
+          "soma_x": "205824",
+          "soma_y": "70144",
+          "soma_z": "5722",
+          "nucleus_id": "8522322",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.8134137166669724",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw068001",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940623787533",
+        "path": "assets/phase3p/720575940623787533.precomputed",
+        "bytes": 17448,
+        "sha256": "aeafe5725b479b4d4ba9235f1d13a8a2d0d3568828b01fea3ed5afaac00b136e",
+        "vertices": 727,
+        "edges": 726,
+        "bounds_nm": [
+          [
+            735147.125,
+            261799.90625,
+            167857.46875
+          ],
+          [
+            845266.6875,
+            287659.75,
+            233745.21875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940624218665",
+        "annotation_row": {
+          "supervoxel_id": "82548172387707997",
+          "root_id": "720575940624218665",
+          "pos_x": "173004.0",
+          "pos_y": "90656.0",
+          "pos_z": "3922.0",
+          "soma_x": "171677",
+          "soma_y": "90665",
+          "soma_z": "4033",
+          "nucleus_id": "",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.8283606885718139",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw094478",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940624218665",
+        "path": "assets/phase3p/720575940624218665.precomputed",
+        "bytes": 15384,
+        "sha256": "4335ec5db92ad6f976690bcbc323a068a82234b8bea67360d435ce941425b08b",
+        "vertices": 641,
+        "edges": 640,
+        "bounds_nm": [
+          [
+            653005.25,
+            326458.84375,
+            135272.15625
+          ],
+          [
+            719183.0625,
+            380548.28125,
+            184560.015625
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940624301641",
+        "annotation_row": {
+          "supervoxel_id": "83953073571488205",
+          "root_id": "720575940624301641",
+          "pos_x": "194388.0",
+          "pos_y": "53106.0",
+          "pos_z": "5493.0",
+          "soma_x": "196672",
+          "soma_y": "50976",
+          "soma_z": "5740",
+          "nucleus_id": "7894544",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7108056509996795",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw096748",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940624301641",
+        "path": "assets/phase3p/720575940624301641.precomputed",
+        "bytes": 28992,
+        "sha256": "5ce78dd4d938da436644a6c87b738d54cb605281ccf601747cc5259e54aec0c4",
+        "vertices": 1208,
+        "edges": 1207,
+        "bounds_nm": [
+          [
+            735065.625,
+            196447.109375,
+            164076.15625
+          ],
+          [
+            831425.3125,
+            227641.3125,
+            229747.65625
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940624324425",
+        "annotation_row": {
+          "supervoxel_id": "83953760632178280",
+          "root_id": "720575940624324425",
+          "pos_x": "194209.0",
+          "pos_y": "63796.0",
+          "pos_z": "4575.0",
+          "soma_x": "200096",
+          "soma_y": "65968",
+          "soma_z": "5836",
+          "nucleus_id": "8162543",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7681777658011568",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw071985",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940624324425",
+        "path": "assets/phase3p/720575940624324425.precomputed",
+        "bytes": 30840,
+        "sha256": "06868812c6ffffea5a56c12389da75f7afefd77c58a75c50d20606e9ab1c67e7",
+        "vertices": 1285,
+        "edges": 1284,
+        "bounds_nm": [
+          [
+            728706.5,
+            235113.625,
+            148248.46875
+          ],
+          [
+            826861.0625,
+            264129.09375,
+            233537.28125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940624456848",
+        "annotation_row": {
+          "supervoxel_id": "83462347788220494",
+          "root_id": "720575940624456848",
+          "pos_x": "187056.0",
+          "pos_y": "80968.0",
+          "pos_z": "5554.0",
+          "soma_x": "187056",
+          "soma_y": "80968",
+          "soma_z": "5554",
+          "nucleus_id": "7714388",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7951541077921768",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw067087",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940624456848",
+        "path": "assets/phase3p/720575940624456848.precomputed",
+        "bytes": 35160,
+        "sha256": "9db9eefe65fbc3431c4f02bde17c66264f998879e0a7355919986a8357aad0cf",
+        "vertices": 1465,
+        "edges": 1464,
+        "bounds_nm": [
+          [
+            687780.9375,
+            299820.5,
+            123006.171875
+          ],
+          [
+            786234.375,
+            348892.59375,
+            222816.265625
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940627837205",
+        "annotation_row": {
+          "supervoxel_id": "82687810431725281",
+          "root_id": "720575940627837205",
+          "pos_x": "175859.0",
+          "pos_y": "74037.0",
+          "pos_z": "4559.0",
+          "soma_x": "195066",
+          "soma_y": "86340",
+          "soma_z": "5586",
+          "nucleus_id": "",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7818764351685428",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw100614",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940627837205",
+        "path": "assets/phase3p/720575940627837205.precomputed",
+        "bytes": 30384,
+        "sha256": "f0327bca2c6a5969c3942e6f1e435c8b1ffe29638e279c0e8a15b26d5cc7082a",
+        "vertices": 1266,
+        "edges": 1265,
+        "bounds_nm": [
+          [
+            692290.125,
+            295474.78125,
+            124001.84375
+          ],
+          [
+            791456.125,
+            346000.75,
+            226000.671875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940646461219",
+        "annotation_row": {
+          "supervoxel_id": "84235991723919748",
+          "root_id": "720575940646461219",
+          "pos_x": "197559.0",
+          "pos_y": "74799.0",
+          "pos_z": "5687.0",
+          "soma_x": "202936",
+          "soma_y": "76632",
+          "soma_z": "5780",
+          "nucleus_id": "8199068",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7924443909296096",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw076645",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LO",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940646461219",
+        "path": "assets/phase3p/720575940646461219.precomputed",
+        "bytes": 18768,
+        "sha256": "0a43c3fada73b812cbc17eb0d58073fb0bd1b95173238dcce455963c868aa510",
+        "vertices": 782,
+        "edges": 781,
+        "bounds_nm": [
+          [
+            737322.5625,
+            269072.75,
+            152297.578125
+          ],
+          [
+            844626.875,
+            318579.9375,
+            231764.953125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      }
+    ],
+    "T4a": [
+      {
+        "root_id": "720575940605793726",
+        "annotation_row": {
+          "supervoxel_id": "83954379174274766",
+          "root_id": "720575940605793726",
+          "pos_x": "193723.0",
+          "pos_y": "73302.0",
+          "pos_z": "4862.0",
+          "soma_x": "188879",
+          "soma_y": "72315",
+          "soma_z": "5675",
+          "nucleus_id": "",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6347611446098211",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw101006",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940605793726",
+        "path": "assets/phase3w/720575940605793726.precomputed",
+        "bytes": 23040,
+        "sha256": "4b57d9d512c990b0435a6e4925fc8d9adac8fd8b8c0339945e525a6fa70b51f7",
+        "vertices": 960,
+        "edges": 959,
+        "bounds_nm": [
+          [
+            749184.875,
+            281988.9375,
+            188995.53125
+          ],
+          [
+            786640.875,
+            306912.0625,
+            226845.34375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940605852192",
+        "annotation_row": {
+          "supervoxel_id": "82546523388390015",
+          "root_id": "720575940605852192",
+          "pos_x": "173504.0",
+          "pos_y": "65768.0",
+          "pos_z": "5687.0",
+          "soma_x": "173504",
+          "soma_y": "65768",
+          "soma_z": "5687",
+          "nucleus_id": "7418904",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6297303492504952",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050385",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940605852192",
+        "path": "assets/phase1b/720575940605852192.precomputed",
+        "bytes": 19896,
+        "sha256": "636df53b81276202a6209a128f5e7636141e14cd44eb094c3f9fff9402877858",
+        "vertices": 829,
+        "edges": 828,
+        "bounds_nm": [
+          [
+            694117.625,
+            242782.671875,
+            132667.828125
+          ],
+          [
+            754375.0,
+            263072.625,
+            228935.375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940614991997",
+        "annotation_row": {
+          "supervoxel_id": "82758729065723454",
+          "root_id": "720575940614991997",
+          "pos_x": "176656.0",
+          "pos_y": "81608.0",
+          "pos_z": "5396.0",
+          "soma_x": "176656",
+          "soma_y": "81608",
+          "soma_z": "5396",
+          "nucleus_id": "7471057",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6539280664836643",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056241",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940614991997",
+        "path": "assets/phase3w/720575940614991997.precomputed",
+        "bytes": 19032,
+        "sha256": "4980341ad0af473e1184d7866b9ee132994bc44f875dc96aad3a323655087c77",
+        "vertices": 793,
+        "edges": 792,
+        "bounds_nm": [
+          [
+            701266.5625,
+            319839.5,
+            162033.5625
+          ],
+          [
+            733558.0,
+            343419.71875,
+            215713.609375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940617391249",
+        "annotation_row": {
+          "supervoxel_id": "83319617434830664",
+          "root_id": "720575940617391249",
+          "pos_x": "184332.0",
+          "pos_y": "51375.0",
+          "pos_z": "5410.0",
+          "soma_x": "185312",
+          "soma_y": "50200",
+          "soma_z": "5812",
+          "nucleus_id": "7674442",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.665446498094662",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw085847",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940617391249",
+        "path": "assets/phase3w/720575940617391249.precomputed",
+        "bytes": 18864,
+        "sha256": "99f6ab974b437f0b47341e45a274d7e98b9506df4231323617b58b1cc73cefd7",
+        "vertices": 786,
+        "edges": 785,
+        "bounds_nm": [
+          [
+            734465.625,
+            192879.375,
+            183889.1875
+          ],
+          [
+            757346.625,
+            207964.9375,
+            232438.578125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940621540544",
+        "annotation_row": {
+          "supervoxel_id": "82829647498790013",
+          "root_id": "720575940621540544",
+          "pos_x": "177328.0",
+          "pos_y": "90344.0",
+          "pos_z": "5002.0",
+          "soma_x": "177328",
+          "soma_y": "90344",
+          "soma_z": "5002",
+          "nucleus_id": "7483293",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6980718553061857",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050800",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940621540544",
+        "path": "assets/phase3w/720575940621540544.precomputed",
+        "bytes": 22536,
+        "sha256": "96770834458bf6548d86f89fd6ad03badd27169dcd8cbca82f839950ba26cf31",
+        "vertices": 939,
+        "edges": 938,
+        "bounds_nm": [
+          [
+            709315.5625,
+            347935.4375,
+            189429.09375
+          ],
+          [
+            749376.0,
+            366347.8125,
+            208375.671875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940622393724",
+        "annotation_row": {
+          "supervoxel_id": "82899397834564445",
+          "root_id": "720575940622393724",
+          "pos_x": "178400.0",
+          "pos_y": "81216.0",
+          "pos_z": "5379.0",
+          "soma_x": "178400",
+          "soma_y": "81216",
+          "soma_z": "5379",
+          "nucleus_id": "7472154",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5721240051136351",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw057578",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940622393724",
+        "path": "assets/phase3w/720575940622393724.precomputed",
+        "bytes": 25464,
+        "sha256": "7a2bb7af467d487a2741452f8876aa24dcdc6ad7937c816005b839e0beae0734",
+        "vertices": 1061,
+        "edges": 1060,
+        "bounds_nm": [
+          [
+            712399.1875,
+            311461.6875,
+            173768.71875
+          ],
+          [
+            759541.875,
+            337601.09375,
+            215020.15625
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940622534614",
+        "annotation_row": {
+          "supervoxel_id": "82967567555671718",
+          "root_id": "720575940622534614",
+          "pos_x": "179176.0",
+          "pos_y": "48040.0",
+          "pos_z": "5512.0",
+          "soma_x": "179176",
+          "soma_y": "48040",
+          "soma_z": "5512",
+          "nucleus_id": "7384316",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6985257383722919",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw053554",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940622534614",
+        "path": "assets/phase3w/720575940622534614.precomputed",
+        "bytes": 16128,
+        "sha256": "5244361d4e80221c760e15d53870d0a6136a7215ba8550fbe8b85f215c83ee07",
+        "vertices": 672,
+        "edges": 671,
+        "bounds_nm": [
+          [
+            715323.6875,
+            192045.90625,
+            153970.40625
+          ],
+          [
+            747765.625,
+            220960.0,
+            232387.203125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940622950161",
+        "annotation_row": {
+          "supervoxel_id": "84023648474181012",
+          "root_id": "720575940622950161",
+          "pos_x": "195463.0",
+          "pos_y": "56690.0",
+          "pos_z": "5554.0",
+          "soma_x": "194000",
+          "soma_y": "55488",
+          "soma_z": "5862",
+          "nucleus_id": "7892563",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.687089600473437",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw088349",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940622950161",
+        "path": "assets/phase3w/720575940622950161.precomputed",
+        "bytes": 16152,
+        "sha256": "3cf4aeca6bddc65e75759a71b4ca512b9e088272cc282a68b3e92d1285530f64",
+        "vertices": 673,
+        "edges": 672,
+        "bounds_nm": [
+          [
+            768354.125,
+            217603.578125,
+            209681.125
+          ],
+          [
+            795647.5625,
+            240580.3125,
+            235082.4375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940624046630",
+        "annotation_row": {
+          "supervoxel_id": "83530723600006810",
+          "root_id": "720575940624046630",
+          "pos_x": "188249.0",
+          "pos_y": "51472.0",
+          "pos_z": "4710.0",
+          "soma_x": "187984",
+          "soma_y": "52376",
+          "soma_z": "5848",
+          "nucleus_id": "7675728",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6582028103380952",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw079494",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940624046630",
+        "path": "assets/phase3w/720575940624046630.precomputed",
+        "bytes": 15312,
+        "sha256": "4c6a80d7887e686a07e843cbc655766cb6f0c8c5085ddc86d3ad36d8df6f7ec8",
+        "vertices": 638,
+        "edges": 637,
+        "bounds_nm": [
+          [
+            735800.375,
+            197100.6875,
+            181532.546875
+          ],
+          [
+            761289.5,
+            213962.03125,
+            234239.59375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940625522320",
+        "annotation_row": {
+          "supervoxel_id": "82968598414790182",
+          "root_id": "720575940625522320",
+          "pos_x": "179784.0",
+          "pos_y": "63824.0",
+          "pos_z": "5930.0",
+          "soma_x": "179784",
+          "soma_y": "63824",
+          "soma_z": "5930",
+          "nucleus_id": "7422147",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6529217704752115",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056955",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940625522320",
+        "path": "assets/phase3w/720575940625522320.precomputed",
+        "bytes": 22008,
+        "sha256": "420d6b89f3616179d196463ff953ea43e77a432f46183400b53c628b45a5812f",
+        "vertices": 917,
+        "edges": 916,
+        "bounds_nm": [
+          [
+            716481.5,
+            249368.734375,
+            145497.0
+          ],
+          [
+            757461.9375,
+            262747.71875,
+            237227.453125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940636784105",
+        "annotation_row": {
+          "supervoxel_id": "83603016556730613",
+          "root_id": "720575940636784105",
+          "pos_x": "189089.0",
+          "pos_y": "80379.0",
+          "pos_z": "5288.0",
+          "soma_x": "192184",
+          "soma_y": "80296",
+          "soma_z": "5833",
+          "nucleus_id": "7934904",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6509961448123484",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw088060",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940636784105",
+        "path": "assets/phase3w/720575940636784105.precomputed",
+        "bytes": 16872,
+        "sha256": "842f94118560e30906a2cf92963eab2e6c290e688d5a94b9321222d0773bc106",
+        "vertices": 703,
+        "edges": 702,
+        "bounds_nm": [
+          [
+            746016.875,
+            310240.0,
+            206570.53125
+          ],
+          [
+            784512.0625,
+            335860.65625,
+            233383.546875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940638300724",
+        "annotation_row": {
+          "supervoxel_id": "84165348035084088",
+          "root_id": "720575940638300724",
+          "pos_x": "196738.0",
+          "pos_y": "70693.0",
+          "pos_z": "5456.0",
+          "soma_x": "194672",
+          "soma_y": "73360",
+          "soma_z": "5864",
+          "nucleus_id": "7923624",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.653249089116977",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw089118",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "ME>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940638300724",
+        "path": "assets/phase3w/720575940638300724.precomputed",
+        "bytes": 16464,
+        "sha256": "aeaf0d5bba81469dcaa4e6530fabb84d8c7c4d4d0229c73fff74d7a76d2c3024",
+        "vertices": 686,
+        "edges": 685,
+        "bounds_nm": [
+          [
+            764669.8125,
+            271621.03125,
+            206922.453125
+          ],
+          [
+            798307.25,
+            294270.75,
+            235804.890625
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      }
+    ],
+    "T5d": [
+      {
+        "root_id": "720575940614033887",
+        "annotation_row": {
+          "supervoxel_id": "82406473094955934",
+          "root_id": "720575940614033887",
+          "pos_x": "171648.0",
+          "pos_y": "75576.0",
+          "pos_z": "5817.0",
+          "soma_x": "171648",
+          "soma_y": "75576",
+          "soma_z": "5817",
+          "nucleus_id": "7169911",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.618489084310178",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056638",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940614033887",
+        "path": "assets/phase3w/720575940614033887.precomputed",
+        "bytes": 14808,
+        "sha256": "c631dcba8872024d3311293569af9d57cd888ff54def1a1bfef08fbc181e7a37",
+        "vertices": 617,
+        "edges": 616,
+        "bounds_nm": [
+          [
+            672545.75,
+            287854.8125,
+            199544.90625
+          ],
+          [
+            689470.0,
+            306510.28125,
+            232883.09375
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940619466772",
+        "annotation_row": {
+          "supervoxel_id": "83390467148096534",
+          "root_id": "720575940619466772",
+          "pos_x": "185678.0",
+          "pos_y": "58902.0",
+          "pos_z": "4776.0",
+          "soma_x": "190240",
+          "soma_y": "60920",
+          "soma_z": "5954",
+          "nucleus_id": "7904183",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.4485667178080006",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw084065",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940619466772",
+        "path": "assets/phase3w/720575940619466772.precomputed",
+        "bytes": 16152,
+        "sha256": "cf51198c6f6d5c3a01921ac6726cec53ab26db82ef7827e6539cb0708bb2a8eb",
+        "vertices": 673,
+        "edges": 672,
+        "bounds_nm": [
+          [
+            733472.5625,
+            221721.359375,
+            186168.1875
+          ],
+          [
+            761591.125,
+            244261.0625,
+            238183.296875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940619890136",
+        "annotation_row": {
+          "supervoxel_id": "81984947556376373",
+          "root_id": "720575940619890136",
+          "pos_x": "165640.0",
+          "pos_y": "86376.0",
+          "pos_z": "4069.0",
+          "soma_x": "165640",
+          "soma_y": "86376",
+          "soma_z": "4069",
+          "nucleus_id": "7211741",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5643133340200426",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw113730",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940619890136",
+        "path": "assets/phase3w/720575940619890136.precomputed",
+        "bytes": 11400,
+        "sha256": "7fa60de940206f204ac5aab1bf05d63b128c9970ec6e50673f752d04a3578be8",
+        "vertices": 475,
+        "edges": 474,
+        "bounds_nm": [
+          [
+            659532.6875,
+            333699.8125,
+            162813.3125
+          ],
+          [
+            679078.0625,
+            350263.375,
+            197299.75
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940620301483",
+        "annotation_row": {
+          "supervoxel_id": "83249592288265016",
+          "root_id": "720575940620301483",
+          "pos_x": "183610.0",
+          "pos_y": "56410.0",
+          "pos_z": "5583.0",
+          "soma_x": "186960",
+          "soma_y": "57904",
+          "soma_z": "5973",
+          "nucleus_id": "7683483",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.4900109696239855",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw076315",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940620301483",
+        "path": "assets/phase3w/720575940620301483.precomputed",
+        "bytes": 13920,
+        "sha256": "d5b8343fb7a3a9c3e73786cd0c41e7be5c5f1696032765e20f75a828299d6cd3",
+        "vertices": 580,
+        "edges": 579,
+        "bounds_nm": [
+          [
+            714880.5625,
+            202355.046875,
+            202660.0
+          ],
+          [
+            748088.5625,
+            237715.953125,
+            238870.875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940621132246",
+        "annotation_row": {
+          "supervoxel_id": "82758935224135627",
+          "root_id": "720575940621132246",
+          "pos_x": "176368.0",
+          "pos_y": "85016.0",
+          "pos_z": "5395.0",
+          "soma_x": "176368",
+          "soma_y": "85016",
+          "soma_z": "5395",
+          "nucleus_id": "7486123",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6143441244533754",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056462",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940621132246",
+        "path": "assets/phase3w/720575940621132246.precomputed",
+        "bytes": 16704,
+        "sha256": "6feb5677ce0e89660bbe308b2bac84e6c77d24251dab08a60596dac6269e8124",
+        "vertices": 696,
+        "edges": 695,
+        "bounds_nm": [
+          [
+            683263.75,
+            320895.0625,
+            169273.234375
+          ],
+          [
+            707719.5,
+            343282.625,
+            215599.6875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940621183073",
+        "annotation_row": {
+          "supervoxel_id": "83320716879071466",
+          "root_id": "720575940621183073",
+          "pos_x": "184491.0",
+          "pos_y": "67892.0",
+          "pos_z": "4678.0",
+          "soma_x": "187136",
+          "soma_y": "72344",
+          "soma_z": "5799",
+          "nucleus_id": "7697022",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5309287357504339",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw102824",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940621183073",
+        "path": "assets/phase3w/720575940621183073.precomputed",
+        "bytes": 13632,
+        "sha256": "886fda3dd8a4979b3e4cfc4a92fc1001fe1e317a110cb9ebee0d03e13ed753db",
+        "vertices": 568,
+        "edges": 567,
+        "bounds_nm": [
+          [
+            732079.25,
+            258760.6875,
+            182660.390625
+          ],
+          [
+            749587.875,
+            290099.78125,
+            232845.546875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940622166908",
+        "annotation_row": {
+          "supervoxel_id": "83389986111644609",
+          "root_id": "720575940622166908",
+          "pos_x": "185639.0",
+          "pos_y": "51203.0",
+          "pos_z": "4699.0",
+          "soma_x": "190224",
+          "soma_y": "49168",
+          "soma_z": "5638",
+          "nucleus_id": "7879034",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.42189804810163467",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw088866",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940622166908",
+        "path": "assets/phase3w/720575940622166908.precomputed",
+        "bytes": 15696,
+        "sha256": "cfbbce8d28d94e59f68c361ad5699968696b459834aa2982dc39d2e960cbe475",
+        "vertices": 654,
+        "edges": 653,
+        "bounds_nm": [
+          [
+            733112.625,
+            196719.71875,
+            180204.390625
+          ],
+          [
+            762775.75,
+            217410.25,
+            230033.515625
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940623043327",
+        "annotation_row": {
+          "supervoxel_id": "83039104598146981",
+          "root_id": "720575940623043327",
+          "pos_x": "180240.0",
+          "pos_y": "66056.0",
+          "pos_z": "6085.0",
+          "soma_x": "180240",
+          "soma_y": "66056",
+          "soma_z": "6085",
+          "nucleus_id": "7422072",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5718971641396794",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050384",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940623043327",
+        "path": "assets/phase3v/720575940623043327.precomputed",
+        "bytes": 15144,
+        "sha256": "b3e2457d6ab57c6a6317818eef8c434390ab8934625c20367dbddc7c7ff796e0",
+        "vertices": 631,
+        "edges": 630,
+        "bounds_nm": [
+          [
+            693440.5625,
+            237418.609375,
+            209295.375
+          ],
+          [
+            725337.0,
+            264843.5625,
+            243817.1875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": true
+      },
+      {
+        "root_id": "720575940626241555",
+        "annotation_row": {
+          "supervoxel_id": "81844072696444373",
+          "root_id": "720575940626241555",
+          "pos_x": "163592.0",
+          "pos_y": "83768.0",
+          "pos_z": "4618.0",
+          "soma_x": "163592",
+          "soma_y": "83768",
+          "soma_z": "4618",
+          "nucleus_id": "6965914",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5627131425428047",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050823",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940626241555",
+        "path": "assets/phase3w/720575940626241555.precomputed",
+        "bytes": 12864,
+        "sha256": "611a2990f46773a754a2288b3e23ffd3fe2d44b86ab99083aa9c2f3755a40a17",
+        "vertices": 536,
+        "edges": 535,
+        "bounds_nm": [
+          [
+            654244.5,
+            330785.375,
+            175296.625
+          ],
+          [
+            675205.75,
+            341645.375,
+            202971.296875
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940628180935",
+        "annotation_row": {
+          "supervoxel_id": "83462416507783164",
+          "root_id": "720575940628180935",
+          "pos_x": "187029.0",
+          "pos_y": "82445.0",
+          "pos_z": "5605.0",
+          "soma_x": "187040",
+          "soma_y": "82456",
+          "soma_z": "5602",
+          "nucleus_id": "7745009",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6082907062782454",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw090287",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940628180935",
+        "path": "assets/phase3w/720575940628180935.precomputed",
+        "bytes": 16656,
+        "sha256": "8475a4bc4c70e53add47c971bc2bc8f6e696add4a5e8a552c3c6cc8cf09223b5",
+        "vertices": 694,
+        "edges": 693,
+        "bounds_nm": [
+          [
+            709697.4375,
+            302944.125,
+            147429.75
+          ],
+          [
+            764382.0,
+            334693.375,
+            224185.765625
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940628656683",
+        "annotation_row": {
+          "supervoxel_id": "83039310756407916",
+          "root_id": "720575940628656683",
+          "pos_x": "180288.0",
+          "pos_y": "68328.0",
+          "pos_z": "5973.0",
+          "soma_x": "180288",
+          "soma_y": "68328",
+          "soma_z": "5973",
+          "nucleus_id": "7450306",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.4415414636008849",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw052145",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940628656683",
+        "path": "assets/phase3w/720575940628656683.precomputed",
+        "bytes": 13944,
+        "sha256": "d3c3c5ee8db9eaa9fdde4659106f56221479da7893b8198bfef035407ecf6034",
+        "vertices": 581,
+        "edges": 580,
+        "bounds_nm": [
+          [
+            693479.125,
+            258164.296875,
+            204081.15625
+          ],
+          [
+            721187.8125,
+            275187.34375,
+            239082.28125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      },
+      {
+        "root_id": "720575940646778147",
+        "annotation_row": {
+          "supervoxel_id": "82125753763989021",
+          "root_id": "720575940646778147",
+          "pos_x": "167224.0",
+          "pos_y": "86920.0",
+          "pos_z": "3984.0",
+          "soma_x": "167224",
+          "soma_y": "86920",
+          "soma_z": "3984",
+          "nucleus_id": "7212375",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5235759202017812",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw113982",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        "side": "right",
+        "cell_class": "LO>LOP",
+        "dataset": "FlyWire female FAFB",
+        "materialization": 783,
+        "coordinate_system": "FAFB14.1",
+        "source_units": "nm",
+        "source_url": "https://flyem.mrc-lmb.cam.ac.uk/flyconnectome/flywire_skeletons_783/720575940646778147",
+        "path": "assets/phase3w/720575940646778147.precomputed",
+        "bytes": 12456,
+        "sha256": "bd3385af67e1b929a82acc4dba4138991855753355d3094cf60132cc669b5f94",
+        "vertices": 519,
+        "edges": 518,
+        "bounds_nm": [
+          [
+            658368.0,
+            335568.71875,
+            158517.3125
+          ],
+          [
+            686683.125,
+            353882.34375,
+            194693.453125
+          ]
+        ],
+        "connected_tree": true,
+        "reused": false
+      }
+    ]
+  },
+  "selection": {
+    "algorithm": "PCG64; stable integer root sort; existing representative fixed plus uniform 11 without replacement",
+    "config_sha256": "511a9c0c68256af7c333bd5b71b3c50efedc24ed2cceea30321e2d8f17ef062e",
+    "annotation": {
+      "url": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/8587524c1748ce5ef2080822a2fc890fc03bf597/supplemental_files/Supplemental_file1_neuron_annotations.tsv",
+      "commit": "8587524c1748ce5ef2080822a2fc890fc03bf597",
+      "sha256": "9a4f8b2f843196074431ebd7cd883536afa1be86c8a4ce90970441e8be81d1be",
+      "cache": "assets/phase1b/sources/annotations.tsv"
+    },
+    "seeds": {
+      "T2": 310401,
+      "T4a": 310402,
+      "T5d": 310403
+    },
+    "selected_rows": {
+      "T2": [
+        {
+          "supervoxel_id": "83040753731302021",
+          "root_id": "720575940608937923",
+          "pos_x": "180528.0",
+          "pos_y": "90120.0",
+          "pos_z": "4996.0",
+          "soma_x": "180528",
+          "soma_y": "90120",
+          "soma_z": "4996",
+          "nucleus_id": "7483559",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.822525040861509",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050401",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83532922690553641",
+          "root_id": "720575940612381925",
+          "pos_x": "187512.0",
+          "pos_y": "84383.0",
+          "pos_z": "5346.0",
+          "soma_x": "187480",
+          "soma_y": "84376",
+          "soma_z": "5349",
+          "nucleus_id": "7745329",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7820166319292571",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw090302",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83533335007560038",
+          "root_id": "720575940612547481",
+          "pos_x": "188016.0",
+          "pos_y": "90096.0",
+          "pos_z": "5473.0",
+          "soma_x": "188016",
+          "soma_y": "90096",
+          "soma_z": "5473",
+          "nucleus_id": "7745857",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7594410216445451",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw067854",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83814191508873350",
+          "root_id": "720575940615146919",
+          "pos_x": "192157.0",
+          "pos_y": "81252.0",
+          "pos_z": "5395.0",
+          "soma_x": "200848",
+          "soma_y": "83368",
+          "soma_z": "5750",
+          "nucleus_id": "8215601",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7602215205849615",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw104653",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "84093879712380212",
+          "root_id": "720575940620132401",
+          "pos_x": "195565.0",
+          "pos_y": "54309.0",
+          "pos_z": "5098.0",
+          "soma_x": "201736",
+          "soma_y": "54264",
+          "soma_z": "5684",
+          "nucleus_id": "8121169",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7827983273048098",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw082804",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "84798598080026469",
+          "root_id": "720575940623787533",
+          "pos_x": "205824.0",
+          "pos_y": "70144.0",
+          "pos_z": "5722.0",
+          "soma_x": "205824",
+          "soma_y": "70144",
+          "soma_z": "5722",
+          "nucleus_id": "8522322",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.8134137166669724",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw068001",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82548172387707997",
+          "root_id": "720575940624218665",
+          "pos_x": "173004.0",
+          "pos_y": "90656.0",
+          "pos_z": "3922.0",
+          "soma_x": "171677",
+          "soma_y": "90665",
+          "soma_z": "4033",
+          "nucleus_id": "",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.8283606885718139",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw094478",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83953073571488205",
+          "root_id": "720575940624301641",
+          "pos_x": "194388.0",
+          "pos_y": "53106.0",
+          "pos_z": "5493.0",
+          "soma_x": "196672",
+          "soma_y": "50976",
+          "soma_z": "5740",
+          "nucleus_id": "7894544",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7108056509996795",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw096748",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83953760632178280",
+          "root_id": "720575940624324425",
+          "pos_x": "194209.0",
+          "pos_y": "63796.0",
+          "pos_z": "4575.0",
+          "soma_x": "200096",
+          "soma_y": "65968",
+          "soma_z": "5836",
+          "nucleus_id": "8162543",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7681777658011568",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw071985",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83462347788220494",
+          "root_id": "720575940624456848",
+          "pos_x": "187056.0",
+          "pos_y": "80968.0",
+          "pos_z": "5554.0",
+          "soma_x": "187056",
+          "soma_y": "80968",
+          "soma_z": "5554",
+          "nucleus_id": "7714388",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7951541077921768",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw067087",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82687810431725281",
+          "root_id": "720575940627837205",
+          "pos_x": "175859.0",
+          "pos_y": "74037.0",
+          "pos_z": "4559.0",
+          "soma_x": "195066",
+          "soma_y": "86340",
+          "soma_z": "5586",
+          "nucleus_id": "",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7818764351685428",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw100614",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "84235991723919748",
+          "root_id": "720575940646461219",
+          "pos_x": "197559.0",
+          "pos_y": "74799.0",
+          "pos_z": "5687.0",
+          "soma_x": "202936",
+          "soma_y": "76632",
+          "soma_z": "5780",
+          "nucleus_id": "8199068",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LO",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T2",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.7924443909296096",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Konstantinides et  al., 2018 (FACS RNA-seq))",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw076645",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        }
+      ],
+      "T4a": [
+        {
+          "supervoxel_id": "83954379174274766",
+          "root_id": "720575940605793726",
+          "pos_x": "193723.0",
+          "pos_y": "73302.0",
+          "pos_z": "4862.0",
+          "soma_x": "188879",
+          "soma_y": "72315",
+          "soma_z": "5675",
+          "nucleus_id": "",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6347611446098211",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw101006",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82546523388390015",
+          "root_id": "720575940605852192",
+          "pos_x": "173504.0",
+          "pos_y": "65768.0",
+          "pos_z": "5687.0",
+          "soma_x": "173504",
+          "soma_y": "65768",
+          "soma_z": "5687",
+          "nucleus_id": "7418904",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6297303492504952",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050385",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82758729065723454",
+          "root_id": "720575940614991997",
+          "pos_x": "176656.0",
+          "pos_y": "81608.0",
+          "pos_z": "5396.0",
+          "soma_x": "176656",
+          "soma_y": "81608",
+          "soma_z": "5396",
+          "nucleus_id": "7471057",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6539280664836643",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056241",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83319617434830664",
+          "root_id": "720575940617391249",
+          "pos_x": "184332.0",
+          "pos_y": "51375.0",
+          "pos_z": "5410.0",
+          "soma_x": "185312",
+          "soma_y": "50200",
+          "soma_z": "5812",
+          "nucleus_id": "7674442",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.665446498094662",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw085847",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82829647498790013",
+          "root_id": "720575940621540544",
+          "pos_x": "177328.0",
+          "pos_y": "90344.0",
+          "pos_z": "5002.0",
+          "soma_x": "177328",
+          "soma_y": "90344",
+          "soma_z": "5002",
+          "nucleus_id": "7483293",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6980718553061857",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050800",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82899397834564445",
+          "root_id": "720575940622393724",
+          "pos_x": "178400.0",
+          "pos_y": "81216.0",
+          "pos_z": "5379.0",
+          "soma_x": "178400",
+          "soma_y": "81216",
+          "soma_z": "5379",
+          "nucleus_id": "7472154",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5721240051136351",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw057578",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82967567555671718",
+          "root_id": "720575940622534614",
+          "pos_x": "179176.0",
+          "pos_y": "48040.0",
+          "pos_z": "5512.0",
+          "soma_x": "179176",
+          "soma_y": "48040",
+          "soma_z": "5512",
+          "nucleus_id": "7384316",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6985257383722919",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw053554",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "84023648474181012",
+          "root_id": "720575940622950161",
+          "pos_x": "195463.0",
+          "pos_y": "56690.0",
+          "pos_z": "5554.0",
+          "soma_x": "194000",
+          "soma_y": "55488",
+          "soma_z": "5862",
+          "nucleus_id": "7892563",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.687089600473437",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw088349",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83530723600006810",
+          "root_id": "720575940624046630",
+          "pos_x": "188249.0",
+          "pos_y": "51472.0",
+          "pos_z": "4710.0",
+          "soma_x": "187984",
+          "soma_y": "52376",
+          "soma_z": "5848",
+          "nucleus_id": "7675728",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6582028103380952",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw079494",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82968598414790182",
+          "root_id": "720575940625522320",
+          "pos_x": "179784.0",
+          "pos_y": "63824.0",
+          "pos_z": "5930.0",
+          "soma_x": "179784",
+          "soma_y": "63824",
+          "soma_z": "5930",
+          "nucleus_id": "7422147",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6529217704752115",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056955",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83603016556730613",
+          "root_id": "720575940636784105",
+          "pos_x": "189089.0",
+          "pos_y": "80379.0",
+          "pos_z": "5288.0",
+          "soma_x": "192184",
+          "soma_y": "80296",
+          "soma_z": "5833",
+          "nucleus_id": "7934904",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6509961448123484",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw088060",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "84165348035084088",
+          "root_id": "720575940638300724",
+          "pos_x": "196738.0",
+          "pos_y": "70693.0",
+          "pos_z": "5456.0",
+          "soma_x": "194672",
+          "soma_y": "73360",
+          "soma_z": "5864",
+          "nucleus_id": "7923624",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "ME>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T4a",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.653249089116977",
+          "known_nt": "acetylcholine",
+          "known_nt_source": "Takemura et al. 2011 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw089118",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        }
+      ],
+      "T5d": [
+        {
+          "supervoxel_id": "82406473094955934",
+          "root_id": "720575940614033887",
+          "pos_x": "171648.0",
+          "pos_y": "75576.0",
+          "pos_z": "5817.0",
+          "soma_x": "171648",
+          "soma_y": "75576",
+          "soma_z": "5817",
+          "nucleus_id": "7169911",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.618489084310178",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056638",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83390467148096534",
+          "root_id": "720575940619466772",
+          "pos_x": "185678.0",
+          "pos_y": "58902.0",
+          "pos_z": "4776.0",
+          "soma_x": "190240",
+          "soma_y": "60920",
+          "soma_z": "5954",
+          "nucleus_id": "7904183",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.4485667178080006",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw084065",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "81984947556376373",
+          "root_id": "720575940619890136",
+          "pos_x": "165640.0",
+          "pos_y": "86376.0",
+          "pos_z": "4069.0",
+          "soma_x": "165640",
+          "soma_y": "86376",
+          "soma_z": "4069",
+          "nucleus_id": "7211741",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5643133340200426",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw113730",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83249592288265016",
+          "root_id": "720575940620301483",
+          "pos_x": "183610.0",
+          "pos_y": "56410.0",
+          "pos_z": "5583.0",
+          "soma_x": "186960",
+          "soma_y": "57904",
+          "soma_z": "5973",
+          "nucleus_id": "7683483",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.4900109696239855",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw076315",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82758935224135627",
+          "root_id": "720575940621132246",
+          "pos_x": "176368.0",
+          "pos_y": "85016.0",
+          "pos_z": "5395.0",
+          "soma_x": "176368",
+          "soma_y": "85016",
+          "soma_z": "5395",
+          "nucleus_id": "7486123",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6143441244533754",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw056462",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83320716879071466",
+          "root_id": "720575940621183073",
+          "pos_x": "184491.0",
+          "pos_y": "67892.0",
+          "pos_z": "4678.0",
+          "soma_x": "187136",
+          "soma_y": "72344",
+          "soma_z": "5799",
+          "nucleus_id": "7697022",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5309287357504339",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw102824",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83389986111644609",
+          "root_id": "720575940622166908",
+          "pos_x": "185639.0",
+          "pos_y": "51203.0",
+          "pos_z": "4699.0",
+          "soma_x": "190224",
+          "soma_y": "49168",
+          "soma_z": "5638",
+          "nucleus_id": "7879034",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.42189804810163467",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw088866",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83039104598146981",
+          "root_id": "720575940623043327",
+          "pos_x": "180240.0",
+          "pos_y": "66056.0",
+          "pos_z": "6085.0",
+          "soma_x": "180240",
+          "soma_y": "66056",
+          "soma_z": "6085",
+          "nucleus_id": "7422072",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5718971641396794",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050384",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "81844072696444373",
+          "root_id": "720575940626241555",
+          "pos_x": "163592.0",
+          "pos_y": "83768.0",
+          "pos_z": "4618.0",
+          "soma_x": "163592",
+          "soma_y": "83768",
+          "soma_z": "4618",
+          "nucleus_id": "6965914",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5627131425428047",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw050823",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83462416507783164",
+          "root_id": "720575940628180935",
+          "pos_x": "187029.0",
+          "pos_y": "82445.0",
+          "pos_z": "5605.0",
+          "soma_x": "187040",
+          "soma_y": "82456",
+          "soma_z": "5602",
+          "nucleus_id": "7745009",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.6082907062782454",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw090287",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "83039310756407916",
+          "root_id": "720575940628656683",
+          "pos_x": "180288.0",
+          "pos_y": "68328.0",
+          "pos_z": "5973.0",
+          "soma_x": "180288",
+          "soma_y": "68328",
+          "soma_z": "5973",
+          "nucleus_id": "7450306",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.4415414636008849",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw052145",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        },
+        {
+          "supervoxel_id": "82125753763989021",
+          "root_id": "720575940646778147",
+          "pos_x": "167224.0",
+          "pos_y": "86920.0",
+          "pos_z": "3984.0",
+          "soma_x": "167224",
+          "soma_y": "86920",
+          "soma_z": "3984",
+          "nucleus_id": "7212375",
+          "flow": "intrinsic",
+          "super_class": "optic",
+          "cell_class": "LO>LOP",
+          "cell_sub_class": "",
+          "supertype": "",
+          "cell_type": "T5d",
+          "hemibrain_type": "",
+          "ito_lee_hemilineage": "",
+          "hartenstein_hemilineage": "",
+          "top_nt": "acetylcholine",
+          "top_nt_conf": "0.5235759202017812",
+          "known_nt": "acetylcholine; acetylcholine",
+          "known_nt_source": "Mauss et al. 2014 (immuno); Shinomiya et al. 2014 (RT-PCR)",
+          "side": "right",
+          "nerve": "",
+          "vfb_id": "fw113982",
+          "fbbt_id": "",
+          "status": "",
+          "dimorphism": "isomorphic",
+          "matching_notes": "",
+          "fru_dsx": "",
+          "synonyms": ""
+        }
+      ]
+    },
+    "population_counts": {
+      "T2": 725,
+      "T4a": 737,
+      "T5d": 727
+    },
+    "existing_ids": {
+      "T2": "720575940608937923",
+      "T4a": "720575940605852192",
+      "T5d": "720575940623043327"
+    },
+    "before_download": true
+  },
+  "selection_sha256": "86a14098f3af61e43930921177253c83e61e2ddea30c2474adf40f7a91021ebd",
+  "context": {
+    "archive": "assets/JFRC2NP.surf.fw.zip",
+    "archive_sha256": "75637dc4aee119211ab20788da0cb6c5a0495cc4bdaf9ae09cd17a7a44cf34b1",
+    "source": {
+      "source": "https://raw.githubusercontent.com/navis-org/fafbseg-py/d0da95123ee606e204ae2c702e7bc78538646fbd/fafbseg/data/JFRC2NP.surf.fw.zip",
+      "commit": "d0da95123ee606e204ae2c702e7bc78538646fbd",
+      "original": "https://doi.org/10.5281/zenodo.10567",
+      "original_license": "CC0-1.0 (Zenodo record 10567)",
+      "distribution_license": "fafbseg GPL-3.0-or-later repository; preserve notices",
+      "coordinate_system": "FlyWire FAFB14.1",
+      "source_units": "nm",
+      "display_units": "um",
+      "transform": "uniform scale 0.001; no registration, reflection, or translation",
+      "hemisphere": "L/R suffixes retained from source; model hemisphere unresolved",
+      "meshes": [
+        "ME_L",
+        "ME_R",
+        "LO_L",
+        "LO_R",
+        "LOP_L",
+        "LOP_R",
+        "FB",
+        "EB"
+      ],
+      "scope": "8 region surfaces, not a whole-brain neuron reconstruction"
+    },
+    "meshes": [
+      {
+        "name": "AL_L",
+        "archive_entry": "AL_L.ply",
+        "bytes": 27476,
+        "vertices": 622,
+        "faces": 1240,
+        "bounds_nm": [
+          [
+            410123.8125,
+            194673.703125,
+            9192.22265625
+          ],
+          [
+            523436.1875,
+            286789.8125,
+            99584.8828125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AL_L.ply",
+        "sha256": "ef94c49eac6e13f12ffaaf4470354f383efd1be3cfa0ae51fb068852a2a97a80"
+      },
+      {
+        "name": "AL_R",
+        "archive_entry": "AL_R.ply",
+        "bytes": 27164,
+        "vertices": 612,
+        "faces": 1228,
+        "bounds_nm": [
+          [
+            530006.375,
+            204985.40625,
+            -3396.80908203125
+          ],
+          [
+            635372.3125,
+            298086.09375,
+            87773.9765625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AL_R.ply",
+        "sha256": "1b40484b28e639b507a4a918f814bf26e90fcf5175eee39f6446bf42cd591094"
+      },
+      {
+        "name": "AME_L",
+        "archive_entry": "AME_L.ply",
+        "bytes": 3274,
+        "vertices": 72,
+        "faces": 140,
+        "bounds_nm": [
+          [
+            326320.3125,
+            245649.796875,
+            143799.59375
+          ],
+          [
+            353489.59375,
+            283559.8125,
+            165545.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AME_L.ply",
+        "sha256": "17020d9f508c88a39c470fa302a365042168c6f97d8e5f949031a0f29abe180a"
+      },
+      {
+        "name": "AME_R",
+        "archive_entry": "AME_R.ply",
+        "bytes": 3054,
+        "vertices": 67,
+        "faces": 130,
+        "bounds_nm": [
+          [
+            691478.875,
+            263700.5,
+            109822.6015625
+          ],
+          [
+            711218.0,
+            309602.5,
+            134812.59375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AME_R.ply",
+        "sha256": "28f8dc848bb94937638f8fcbefe8f1995c2a6f8a3f74cb15c2fc56cf54f97a89"
+      },
+      {
+        "name": "AMMC_L",
+        "archive_entry": "AMMC_L.ply",
+        "bytes": 15207,
+        "vertices": 341,
+        "faces": 684,
+        "bounds_nm": [
+          [
+            395209.0,
+            260314.296875,
+            71519.328125
+          ],
+          [
+            492411.1875,
+            308112.1875,
+            160133.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AMMC_L.ply",
+        "sha256": "6aaa55919ccd49605b3f46c39b936575ac2b8e7d31fad525f4fd7eee779cec4d"
+      },
+      {
+        "name": "AMMC_R",
+        "archive_entry": "AMMC_R.ply",
+        "bytes": 15111,
+        "vertices": 341,
+        "faces": 678,
+        "bounds_nm": [
+          [
+            557449.625,
+            273976.6875,
+            50423.55078125
+          ],
+          [
+            648972.6875,
+            322267.1875,
+            150659.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AMMC_R.ply",
+        "sha256": "68479b2ef17fa0f4494b2706046b2f85611176d8bf8d5f955bf4b485bbe117e6"
+      },
+      {
+        "name": "AOTU_L",
+        "archive_entry": "AOTU_L.ply",
+        "bytes": 10007,
+        "vertices": 225,
+        "faces": 446,
+        "bounds_nm": [
+          [
+            365451.8125,
+            121316.8984375,
+            64213.9609375
+          ],
+          [
+            439568.0,
+            174433.203125,
+            120926.1015625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AOTU_L.ply",
+        "sha256": "5c888617a213da98cdcd500f01c6fc28fe320e7ea8999973d0c68656fba6c0f1"
+      },
+      {
+        "name": "AOTU_R",
+        "archive_entry": "AOTU_R.ply",
+        "bytes": 10007,
+        "vertices": 225,
+        "faces": 446,
+        "bounds_nm": [
+          [
+            607688.8125,
+            123756.3984375,
+            40439.96875
+          ],
+          [
+            692906.375,
+            189239.40625,
+            84205.8125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AOTU_R.ply",
+        "sha256": "0e1554d150e4cf4503ff095da84b2915640013757fb3b3ff2b101bd2c57dd478"
+      },
+      {
+        "name": "ATL_L",
+        "archive_entry": "ATL_L.ply",
+        "bytes": 8159,
+        "vertices": 183,
+        "faces": 362,
+        "bounds_nm": [
+          [
+            449391.0,
+            121158.203125,
+            141560.90625
+          ],
+          [
+            524181.0,
+            172529.796875,
+            175766.59375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/ATL_L.ply",
+        "sha256": "35fd56cc4c1579860f5ad83506a96c7ff28654b860f543cf8327cbcb20f5c6d5"
+      },
+      {
+        "name": "ATL_R",
+        "archive_entry": "ATL_R.ply",
+        "bytes": 6619,
+        "vertices": 148,
+        "faces": 292,
+        "bounds_nm": [
+          [
+            536631.0,
+            126868.3984375,
+            138626.40625
+          ],
+          [
+            608267.5,
+            173142.796875,
+            170405.40625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/ATL_R.ply",
+        "sha256": "59223cb28b8cbe05977e45faac7e925841066de93d183155349a9348e69d87be"
+      },
+      {
+        "name": "AVLP_L",
+        "archive_entry": "AVLP_L.ply",
+        "bytes": 31680,
+        "vertices": 719,
+        "faces": 1430,
+        "bounds_nm": [
+          [
+            323116.1875,
+            160603.90625,
+            63670.8984375
+          ],
+          [
+            437238.1875,
+            289382.6875,
+            174390.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AVLP_L.ply",
+        "sha256": "9bcca3cadd5d28e4d342db0f345dac612e45bad68e0e5df2842ed3bdc76677a7"
+      },
+      {
+        "name": "AVLP_R",
+        "archive_entry": "AVLP_R.ply",
+        "bytes": 34340,
+        "vertices": 778,
+        "faces": 1552,
+        "bounds_nm": [
+          [
+            603337.1875,
+            174867.296875,
+            32634.7890625
+          ],
+          [
+            723360.6875,
+            306879.5,
+            142723.796875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/AVLP_R.ply",
+        "sha256": "54219e348e04e2379e839f29d046e21ba577c6703e8696497a88b147780453a4"
+      },
+      {
+        "name": "BU_L",
+        "archive_entry": "BU_L.ply",
+        "bytes": 2129,
+        "vertices": 46,
+        "faces": 88,
+        "bounds_nm": [
+          [
+            446569.3125,
+            154836.5,
+            104458.1015625
+          ],
+          [
+            467450.90625,
+            182847.59375,
+            119615.703125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/BU_L.ply",
+        "sha256": "2e2a6370b9f2631b20fb22bbc0775e3091267d8bd5c08e46b9fbe73bb627b06f"
+      },
+      {
+        "name": "BU_R",
+        "archive_entry": "BU_R.ply",
+        "bytes": 2614,
+        "vertices": 57,
+        "faces": 110,
+        "bounds_nm": [
+          [
+            574276.1875,
+            163165.90625,
+            84613.6875
+          ],
+          [
+            605968.375,
+            195602.90625,
+            106846.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/BU_R.ply",
+        "sha256": "73afd83a4f9484b66fb1c68e8f3373afe111d710355f620342f1a42356b769dc"
+      },
+      {
+        "name": "CAN_L",
+        "archive_entry": "CAN_L.ply",
+        "bytes": 2438,
+        "vertices": 53,
+        "faces": 102,
+        "bounds_nm": [
+          [
+            495720.09375,
+            240721.40625,
+            129800.5
+          ],
+          [
+            515765.90625,
+            281302.09375,
+            152452.796875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/CAN_L.ply",
+        "sha256": "01b3f0de01e481251c5cb38430307d7432f9e3e2246bd4694c814127db842716"
+      },
+      {
+        "name": "CAN_R",
+        "archive_entry": "CAN_R.ply",
+        "bytes": 3714,
+        "vertices": 82,
+        "faces": 160,
+        "bounds_nm": [
+          [
+            540050.5,
+            245690.09375,
+            130042.5
+          ],
+          [
+            571848.1875,
+            279936.1875,
+            158096.203125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/CAN_R.ply",
+        "sha256": "394634825f62a9db1785f30262e73d0fd2ba9813a03d2eaa656c1b5f853b7cf0"
+      },
+      {
+        "name": "CRE_L",
+        "archive_entry": "CRE_L.ply",
+        "bytes": 25428,
+        "vertices": 574,
+        "faces": 1148,
+        "bounds_nm": [
+          [
+            422269.40625,
+            119338.0,
+            20648.869140625
+          ],
+          [
+            514992.8125,
+            211677.296875,
+            114004.3984375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/CRE_L.ply",
+        "sha256": "d86a26f4e6e3558afc89f2e79fc72bae24cc7d814e8397d9d76f837bf6e03ec9"
+      },
+      {
+        "name": "CRE_R",
+        "archive_entry": "CRE_R.ply",
+        "bytes": 24372,
+        "vertices": 550,
+        "faces": 1100,
+        "bounds_nm": [
+          [
+            517780.0,
+            131272.90625,
+            13621.0498046875
+          ],
+          [
+            610820.125,
+            214137.203125,
+            103585.796875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/CRE_R.ply",
+        "sha256": "8abf38bb3e3caef95b51361a4912f77ba7ecf83b9c1bcde64b248c510d089362"
+      },
+      {
+        "name": "EB",
+        "archive_entry": "EB.ply",
+        "bytes": 11291,
+        "vertices": 252,
+        "faces": 506,
+        "bounds_nm": [
+          [
+            486501.90625,
+            154300.09375,
+            62348.109375
+          ],
+          [
+            556681.5,
+            212342.203125,
+            116640.1015625
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/EB.ply",
+        "sha256": "29e63129ef913e8792acb4b609a2bb3bd6fa24da4bb86e37f479efc3d1ea9af5"
+      },
+      {
+        "name": "EPA_L",
+        "archive_entry": "EPA_L.ply",
+        "bytes": 5431,
+        "vertices": 121,
+        "faces": 238,
+        "bounds_nm": [
+          [
+            435336.1875,
+            194396.59375,
+            109925.5
+          ],
+          [
+            475744.59375,
+            236080.203125,
+            146518.203125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/EPA_L.ply",
+        "sha256": "a039cf0d6a5a6128ee8edf395097b99f165801d22bcc216f61d771868df94922"
+      },
+      {
+        "name": "EPA_R",
+        "archive_entry": "EPA_R.ply",
+        "bytes": 5167,
+        "vertices": 115,
+        "faces": 226,
+        "bounds_nm": [
+          [
+            573306.3125,
+            203226.59375,
+            101622.796875
+          ],
+          [
+            613968.1875,
+            240054.40625,
+            132718.796875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/EPA_R.ply",
+        "sha256": "774e82a0aa512caf429d1c5f1466b69cb71bc5e1d6c9eb87305091a887b1b1e4"
+      },
+      {
+        "name": "FB",
+        "archive_entry": "FB.ply",
+        "bytes": 27124,
+        "vertices": 614,
+        "faces": 1224,
+        "bounds_nm": [
+          [
+            461819.6875,
+            127227.796875,
+            85761.8828125
+          ],
+          [
+            590505.625,
+            214891.296875,
+            156664.0
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/FB.ply",
+        "sha256": "4928379c9f87be2fa552598bd20ce032ad99279fccca728de4433ceb303ea566"
+      },
+      {
+        "name": "FLA_L",
+        "archive_entry": "FLA_L.ply",
+        "bytes": 9027,
+        "vertices": 202,
+        "faces": 402,
+        "bounds_nm": [
+          [
+            477331.40625,
+            243728.0,
+            64069.48046875
+          ],
+          [
+            526432.8125,
+            304619.90625,
+            127468.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/FLA_L.ply",
+        "sha256": "402798749bfb5e1e2034e70eca3574a7694b6cedd33e9eacf64fccc7106e7591"
+      },
+      {
+        "name": "FLA_R",
+        "archive_entry": "FLA_R.ply",
+        "bytes": 9083,
+        "vertices": 204,
+        "faces": 404,
+        "bounds_nm": [
+          [
+            523320.3125,
+            248725.796875,
+            58118.73046875
+          ],
+          [
+            574572.375,
+            305917.1875,
+            130042.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/FLA_R.ply",
+        "sha256": "3c95d8d259c3c5295d84cb50bd65bd578703031d695f302dcc6c36d885e00af1"
+      },
+      {
+        "name": "GA_L",
+        "archive_entry": "GA_L.ply",
+        "bytes": 2438,
+        "vertices": 53,
+        "faces": 102,
+        "bounds_nm": [
+          [
+            422042.40625,
+            181463.59375,
+            66032.2734375
+          ],
+          [
+            444872.8125,
+            211373.796875,
+            100218.6015625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/GA_L.ply",
+        "sha256": "1fe3cbad8aca27aaa3933de29a0bde19168771dea939d425c0147f6aae109c49"
+      },
+      {
+        "name": "GA_R",
+        "archive_entry": "GA_R.ply",
+        "bytes": 2966,
+        "vertices": 65,
+        "faces": 126,
+        "bounds_nm": [
+          [
+            599582.875,
+            188579.09375,
+            51116.78125
+          ],
+          [
+            624010.875,
+            215091.09375,
+            90790.6171875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/GA_R.ply",
+        "sha256": "3bae35a484fd14f4430d91993f3fe8c53a56c5422deb2ce02cd2126d1753521a"
+      },
+      {
+        "name": "GNG",
+        "archive_entry": "GNG.ply",
+        "bytes": 76537,
+        "vertices": 1737,
+        "faces": 3470,
+        "bounds_nm": [
+          [
+            427378.90625,
+            259746.09375,
+            41050.91015625
+          ],
+          [
+            632141.3125,
+            366517.90625,
+            245348.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/GNG.ply",
+        "sha256": "78b14a1f8b00f001c8373869997920bd1196e59b759d43398602e72866009bad"
+      },
+      {
+        "name": "GOR_L",
+        "archive_entry": "GOR_L.ply",
+        "bytes": 8027,
+        "vertices": 180,
+        "faces": 356,
+        "bounds_nm": [
+          [
+            436705.09375,
+            185568.5,
+            120247.796875
+          ],
+          [
+            512494.40625,
+            218961.09375,
+            156778.90625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/GOR_L.ply",
+        "sha256": "65248c0c54b307776a1e7856902d860e31fd6628dc0e236e643fe6feb9924520"
+      },
+      {
+        "name": "GOR_R",
+        "archive_entry": "GOR_R.ply",
+        "bytes": 7587,
+        "vertices": 170,
+        "faces": 336,
+        "bounds_nm": [
+          [
+            543541.0,
+            190659.5,
+            110797.203125
+          ],
+          [
+            615381.125,
+            219891.296875,
+            150772.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/GOR_R.ply",
+        "sha256": "592cce615d5c5b6e3f1714a419a5618100304c788974f3f63378681da8a9a455"
+      },
+      {
+        "name": "IB_L",
+        "archive_entry": "IB_L.ply",
+        "bytes": 12943,
+        "vertices": 291,
+        "faces": 580,
+        "bounds_nm": [
+          [
+            472002.59375,
+            161821.09375,
+            131966.703125
+          ],
+          [
+            532308.5,
+            216095.796875,
+            194381.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/IB_L.ply",
+        "sha256": "75b989c16d4315770c81b2819fa66cbff76956ded0744677a4eb32aa88ea9983"
+      },
+      {
+        "name": "IB_R",
+        "archive_entry": "IB_R.ply",
+        "bytes": 11899,
+        "vertices": 268,
+        "faces": 532,
+        "bounds_nm": [
+          [
+            525352.8125,
+            160783.90625,
+            121319.1015625
+          ],
+          [
+            586131.6875,
+            220518.0,
+            187653.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/IB_R.ply",
+        "sha256": "361dc9b3622a2214732476e0eafc106356c0abdcbcbd5f81156f6686a7390b26"
+      },
+      {
+        "name": "ICL_L",
+        "archive_entry": "ICL_L.ply",
+        "bytes": 17707,
+        "vertices": 400,
+        "faces": 796,
+        "bounds_nm": [
+          [
+            423943.1875,
+            136844.0,
+            108964.6015625
+          ],
+          [
+            490066.59375,
+            201834.0,
+            203413.796875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/ICL_L.ply",
+        "sha256": "6056800f38ae924bd4839ec4d5c0e750fb2bb5d3d8515ccca063c7cc0bc6f3b9"
+      },
+      {
+        "name": "ICL_R",
+        "archive_entry": "ICL_R.ply",
+        "bytes": 18939,
+        "vertices": 428,
+        "faces": 852,
+        "bounds_nm": [
+          [
+            565197.875,
+            145010.90625,
+            85987.65625
+          ],
+          [
+            633892.6875,
+            218563.796875,
+            188971.40625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/ICL_R.ply",
+        "sha256": "c76e6b47451c53abc9030cdc6032b20b1beffae088900afd96c7bf6a780de8cb"
+      },
+      {
+        "name": "IPS_L",
+        "archive_entry": "IPS_L.ply",
+        "bytes": 27828,
+        "vertices": 630,
+        "faces": 1256,
+        "bounds_nm": [
+          [
+            400683.59375,
+            223013.90625,
+            137835.796875
+          ],
+          [
+            510111.5,
+            303424.6875,
+            218495.90625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/IPS_L.ply",
+        "sha256": "28941a9e909bb3480762d2062e3d9a0287bed0cca25d697f648a8ae7ddf76057"
+      },
+      {
+        "name": "IPS_R",
+        "archive_entry": "IPS_R.ply",
+        "bytes": 22151,
+        "vertices": 501,
+        "faces": 998,
+        "bounds_nm": [
+          [
+            551000.5,
+            227961.203125,
+            142774.40625
+          ],
+          [
+            660896.625,
+            305775.59375,
+            208720.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/IPS_R.ply",
+        "sha256": "8178d7fe8737288b2931a2943b86a38cea9f5402699a546f5a2c3e3efaedd493"
+      },
+      {
+        "name": "LAL_L",
+        "archive_entry": "LAL_L.ply",
+        "bytes": 17179,
+        "vertices": 388,
+        "faces": 772,
+        "bounds_nm": [
+          [
+            420709.5,
+            185034.703125,
+            62253.69921875
+          ],
+          [
+            505748.8125,
+            259208.296875,
+            133921.59375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/LAL_L.ply",
+        "sha256": "58c74e0621744685bd0eaa739b70339f95859bce04ebc473c33c4e796d6f8e57"
+      },
+      {
+        "name": "LAL_R",
+        "archive_entry": "LAL_R.ply",
+        "bytes": 17795,
+        "vertices": 402,
+        "faces": 800,
+        "bounds_nm": [
+          [
+            538406.625,
+            192749.796875,
+            45147.25
+          ],
+          [
+            622104.125,
+            266602.09375,
+            118648.703125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/LAL_R.ply",
+        "sha256": "67de1dde723b8b30e814655d03e7424ea60bcfe5347f5e4781dea466d63a4922"
+      },
+      {
+        "name": "LA_L",
+        "archive_entry": "LA_L.ply",
+        "bytes": 63117,
+        "vertices": 1432,
+        "faces": 2860,
+        "bounds_nm": [
+          [
+            85877.046875,
+            159024.359375,
+            118571.7265625
+          ],
+          [
+            254735.53125,
+            445224.15625,
+            200958.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/LA_L.ply",
+        "sha256": "cacf0b6cae3eb9e61305515b6c18aea4ee737e3e9e0468926d77224b1986cc4c"
+      },
+      {
+        "name": "LA_R",
+        "archive_entry": "LA_R.ply",
+        "bytes": 51941,
+        "vertices": 1178,
+        "faces": 2352,
+        "bounds_nm": [
+          [
+            783193.8125,
+            169608.28125,
+            68237.9609375
+          ],
+          [
+            893490.6875,
+            410538.78125,
+            178698.765625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/LA_R.ply",
+        "sha256": "27384a5030733d3e6f005c4efb1f4bb7de0868600b9fe804355e43fe936cc11e"
+      },
+      {
+        "name": "LH_L",
+        "archive_entry": "LH_L.ply",
+        "bytes": 16827,
+        "vertices": 380,
+        "faces": 756,
+        "bounds_nm": [
+          [
+            322609.59375,
+            103750.6015625,
+            136551.296875
+          ],
+          [
+            422309.09375,
+            187998.5,
+            207827.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/LH_L.ply",
+        "sha256": "25e36966cd739f851c112f50f2836f403272f05e24fc572880f7d1b2a2352d30"
+      },
+      {
+        "name": "LH_R",
+        "archive_entry": "LH_R.ply",
+        "bytes": 14803,
+        "vertices": 334,
+        "faces": 664,
+        "bounds_nm": [
+          [
+            639274.0,
+            117433.296875,
+            106962.0
+          ],
+          [
+            734584.625,
+            195968.796875,
+            178914.203125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/LH_R.ply",
+        "sha256": "6d34f704a5ddba6afc93b8344a6011274e8bc6d390482549446a4c599bef9c3d"
+      },
+      {
+        "name": "LOP_L",
+        "archive_entry": "LOP_L.ply",
+        "bytes": 76777,
+        "vertices": 1741,
+        "faces": 3482,
+        "bounds_nm": [
+          [
+            269083.625,
+            181933.171875,
+            207973.046875
+          ],
+          [
+            388162.53125,
+            338942.375,
+            265004.8125
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/LOP_L.ply",
+        "sha256": "ce86fea1d31358cfbd747b6d2e14ef74f55d6f6c9f1c8f9ce93dbe7ea309ce8f"
+      },
+      {
+        "name": "LOP_R",
+        "archive_entry": "LOP_R.ply",
+        "bytes": 83465,
+        "vertices": 1893,
+        "faces": 3786,
+        "bounds_nm": [
+          [
+            665587.125,
+            188942.09375,
+            174934.3125
+          ],
+          [
+            782733.25,
+            362480.78125,
+            232370.203125
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/LOP_R.ply",
+        "sha256": "7029e4c726f2e3fdf7039d20e55b3f0689e1c606fa45f6d7fdfa629949359a8e"
+      },
+      {
+        "name": "LO_L",
+        "archive_entry": "LO_L.ply",
+        "bytes": 98217,
+        "vertices": 2221,
+        "faces": 4462,
+        "bounds_nm": [
+          [
+            295351.78125,
+            173137.0,
+            155275.953125
+          ],
+          [
+            408239.15625,
+            324865.875,
+            252502.84375
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/LO_L.ply",
+        "sha256": "911529bd8e3566d86b820aaae4d88b623eaa246f8aa9ca050f6fd579e4b22e9b"
+      },
+      {
+        "name": "LO_R",
+        "archive_entry": "LO_R.ply",
+        "bytes": 101729,
+        "vertices": 2303,
+        "faces": 4620,
+        "bounds_nm": [
+          [
+            644166.8125,
+            183662.4375,
+            122953.953125
+          ],
+          [
+            752453.75,
+            342413.03125,
+            225616.265625
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/LO_R.ply",
+        "sha256": "260e48d91422c635819e9f013beb7667e93b89dda3ae67d9d6654bf0f4b0ddd1"
+      },
+      {
+        "name": "MB_CA_L",
+        "archive_entry": "MB_CA_L.ply",
+        "bytes": 14375,
+        "vertices": 325,
+        "faces": 644,
+        "bounds_nm": [
+          [
+            388139.5,
+            104637.5,
+            156919.59375
+          ],
+          [
+            474259.1875,
+            171989.796875,
+            226209.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_CA_L.ply",
+        "sha256": "cf9d66f6b69789f78928563587426b2628c2ff5693b112f5bdfd164f635e5370"
+      },
+      {
+        "name": "MB_CA_R",
+        "archive_entry": "MB_CA_R.ply",
+        "bytes": 14495,
+        "vertices": 327,
+        "faces": 650,
+        "bounds_nm": [
+          [
+            590864.8125,
+            116820.1015625,
+            146515.5
+          ],
+          [
+            672529.8125,
+            171584.296875,
+            208046.40625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_CA_R.ply",
+        "sha256": "a00ab414506e539757a9c9cd1f63f06ae1756d0169c34293f80358203e2c943f"
+      },
+      {
+        "name": "MB_ML_L",
+        "archive_entry": "MB_ML_L.ply",
+        "bytes": 16983,
+        "vertices": 385,
+        "faces": 762,
+        "bounds_nm": [
+          [
+            423448.5,
+            151265.796875,
+            22291.359375
+          ],
+          [
+            531837.875,
+            197912.796875,
+            99527.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_ML_L.ply",
+        "sha256": "cf314872e7bdee4ef1462233d77401be3ce47402ce3cb2e63241d1df32997404"
+      },
+      {
+        "name": "MB_ML_R",
+        "archive_entry": "MB_ML_R.ply",
+        "bytes": 15023,
+        "vertices": 339,
+        "faces": 674,
+        "bounds_nm": [
+          [
+            519679.8125,
+            154329.59375,
+            11630.3896484375
+          ],
+          [
+            625551.6875,
+            204727.296875,
+            93785.5625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_ML_R.ply",
+        "sha256": "e2063f976788cf5b23b0aca5be018415c5e1a6518e618fef8781ad9b684a9688"
+      },
+      {
+        "name": "MB_PED_L",
+        "archive_entry": "MB_PED_L.ply",
+        "bytes": 10975,
+        "vertices": 247,
+        "faces": 490,
+        "bounds_nm": [
+          [
+            403458.09375,
+            149321.703125,
+            67197.8671875
+          ],
+          [
+            448795.0,
+            191516.40625,
+            171090.796875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_PED_L.ply",
+        "sha256": "e60b6c114d10d214571eca9aeb51df2b15e03cd64900c7174a03f34954165fc9"
+      },
+      {
+        "name": "MB_PED_R",
+        "archive_entry": "MB_PED_R.ply",
+        "bytes": 11107,
+        "vertices": 250,
+        "faces": 496,
+        "bounds_nm": [
+          [
+            602466.375,
+            156557.0,
+            47680.48046875
+          ],
+          [
+            646267.8125,
+            200596.40625,
+            176886.40625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_PED_R.ply",
+        "sha256": "d999141359b09d60911a44be761b22c9e3db093be9b9717f90afd5449a09fcab"
+      },
+      {
+        "name": "MB_VL_L",
+        "archive_entry": "MB_VL_L.ply",
+        "bytes": 10535,
+        "vertices": 237,
+        "faces": 470,
+        "bounds_nm": [
+          [
+            423448.5,
+            81294.40625,
+            44288.7109375
+          ],
+          [
+            474155.5,
+            172948.703125,
+            106209.1015625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_VL_L.ply",
+        "sha256": "f43b6d7e3b445559393fc00ea513a62c9e5b75867cfc01478482ecd3173fb602"
+      },
+      {
+        "name": "MB_VL_R",
+        "archive_entry": "MB_VL_R.ply",
+        "bytes": 10799,
+        "vertices": 243,
+        "faces": 482,
+        "bounds_nm": [
+          [
+            582555.0,
+            90200.546875,
+            26139.80078125
+          ],
+          [
+            632920.625,
+            177140.5,
+            95352.9609375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/MB_VL_R.ply",
+        "sha256": "b6943f291fb8b1e3b3b95048e4d13688f36a084806e9fe7c06016702a691a0e7"
+      },
+      {
+        "name": "ME_L",
+        "archive_entry": "ME_L.ply",
+        "bytes": 231594,
+        "vertices": 5253,
+        "faces": 10524,
+        "bounds_nm": [
+          [
+            194409.484375,
+            147638.21875,
+            124351.140625
+          ],
+          [
+            356832.375,
+            375182.125,
+            270892.40625
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/ME_L.ply",
+        "sha256": "bdb79df500431dd030cba318f36c9d50c0dadf2a24101a330728b8352ebf5a34"
+      },
+      {
+        "name": "ME_R",
+        "archive_entry": "ME_R.ply",
+        "bytes": 240010,
+        "vertices": 5445,
+        "faces": 10906,
+        "bounds_nm": [
+          [
+            687253.875,
+            160667.390625,
+            85677.6640625
+          ],
+          [
+            852903.25,
+            396894.84375,
+            232609.375
+          ]
+        ],
+        "previously_extracted": true,
+        "path": "assets/meshes/ME_R.ply",
+        "sha256": "caea8bd9d0302174f4ca250426def079ec491443e30b646a6bee8830d4d2dc76"
+      },
+      {
+        "name": "NO",
+        "archive_entry": "NO.ply",
+        "bytes": 4551,
+        "vertices": 101,
+        "faces": 198,
+        "bounds_nm": [
+          [
+            503147.3125,
+            193446.40625,
+            92755.9609375
+          ],
+          [
+            547600.6875,
+            230369.40625,
+            128060.3984375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/NO.ply",
+        "sha256": "15f4b6de6b8eb686e25094925cb930f3dcdca06861b6b5c595f2ba7b1436865a"
+      },
+      {
+        "name": "OCG",
+        "archive_entry": "OCG.ply",
+        "bytes": 66105,
+        "vertices": 1497,
+        "faces": 2998,
+        "bounds_nm": [
+          [
+            506954.875,
+            63046.8203125,
+            118548.5
+          ],
+          [
+            555028.0625,
+            102724.1875,
+            167180.53125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/OCG.ply",
+        "sha256": "22ef4634ee0c98acacced3c732d8be201d49635645df076306cc12c633e8c7d6"
+      },
+      {
+        "name": "PB",
+        "archive_entry": "PB.ply",
+        "bytes": 13219,
+        "vertices": 298,
+        "faces": 592,
+        "bounds_nm": [
+          [
+            469054.6875,
+            133253.59375,
+            149287.703125
+          ],
+          [
+            596175.1875,
+            188298.59375,
+            199177.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/PB.ply",
+        "sha256": "c492d9a97d5b7e1279ee39d110aacf4fd52eac4c8f5652bab3da85c9619e5fbc"
+      },
+      {
+        "name": "PLP_L",
+        "archive_entry": "PLP_L.ply",
+        "bytes": 29940,
+        "vertices": 678,
+        "faces": 1352,
+        "bounds_nm": [
+          [
+            353218.3125,
+            143781.796875,
+            130466.0
+          ],
+          [
+            448283.1875,
+            257551.203125,
+            219714.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/PLP_L.ply",
+        "sha256": "d36cb6e632822a0aa5f283f0a4d11088cc5a30ece6f25296f6401d7ea702ea8d"
+      },
+      {
+        "name": "PLP_R",
+        "archive_entry": "PLP_R.ply",
+        "bytes": 26420,
+        "vertices": 598,
+        "faces": 1192,
+        "bounds_nm": [
+          [
+            619183.5,
+            134682.796875,
+            118613.0
+          ],
+          [
+            701001.5,
+            259454.0,
+            199666.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/PLP_R.ply",
+        "sha256": "63e676885d0a0456dbe102d12ec0a8326027479ad3d1f43f18e8e119b6f264c7"
+      },
+      {
+        "name": "PRW",
+        "archive_entry": "PRW.ply",
+        "bytes": 14671,
+        "vertices": 331,
+        "faces": 658,
+        "bounds_nm": [
+          [
+            462525.3125,
+            276181.59375,
+            38716.640625
+          ],
+          [
+            584976.375,
+            335426.8125,
+            106013.203125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/PRW.ply",
+        "sha256": "68e8e31caae58da21bda1559e1dcf38859020c9db8303eef94ba684c8cb303ad"
+      },
+      {
+        "name": "PVLP_L",
+        "archive_entry": "PVLP_L.ply",
+        "bytes": 34360,
+        "vertices": 777,
+        "faces": 1554,
+        "bounds_nm": [
+          [
+            330366.59375,
+            157345.09375,
+            84586.8203125
+          ],
+          [
+            446076.3125,
+            264537.40625,
+            181898.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/PVLP_L.ply",
+        "sha256": "cbf6dcf40286b11480c4591c7a27588515966f133a0628c41d32247e881f7bba"
+      },
+      {
+        "name": "PVLP_R",
+        "archive_entry": "PVLP_R.ply",
+        "bytes": 26772,
+        "vertices": 606,
+        "faces": 1208,
+        "bounds_nm": [
+          [
+            606306.1875,
+            167065.296875,
+            68516.296875
+          ],
+          [
+            714541.625,
+            272575.90625,
+            151490.0
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/PVLP_R.ply",
+        "sha256": "ed032e053b2376a49842033717416313244fb717716c1d6b0fea40b6ab6603ac"
+      },
+      {
+        "name": "SAD",
+        "archive_entry": "SAD.ply",
+        "bytes": 61329,
+        "vertices": 1379,
+        "faces": 2788,
+        "bounds_nm": [
+          [
+            398470.5,
+            263328.5,
+            62975.48828125
+          ],
+          [
+            652014.875,
+            328849.0,
+            182176.59375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SAD.ply",
+        "sha256": "ea11d11440e9c26a9ab70f1e0375cf43988c276bf43864fd184c903c240fca25"
+      },
+      {
+        "name": "SCL_L",
+        "archive_entry": "SCL_L.ply",
+        "bytes": 18763,
+        "vertices": 424,
+        "faces": 844,
+        "bounds_nm": [
+          [
+            391438.5,
+            117422.703125,
+            109879.296875
+          ],
+          [
+            469549.8125,
+            179838.90625,
+            200195.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SCL_L.ply",
+        "sha256": "4fe7479257dcaf9dd3212cbb38efac7badb1d6ca5f016d0a6f320446f1c5578f"
+      },
+      {
+        "name": "SCL_R",
+        "archive_entry": "SCL_R.ply",
+        "bytes": 17707,
+        "vertices": 400,
+        "faces": 796,
+        "bounds_nm": [
+          [
+            581367.8125,
+            135550.796875,
+            86477.1328125
+          ],
+          [
+            668571.625,
+            189209.0,
+            181454.203125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SCL_R.ply",
+        "sha256": "016bb1ca87b1b1a7d5b3c79283f471ba4f4647b397f12ec9ebc09ce08c361e19"
+      },
+      {
+        "name": "SIP_L",
+        "archive_entry": "SIP_L.ply",
+        "bytes": 17487,
+        "vertices": 395,
+        "faces": 786,
+        "bounds_nm": [
+          [
+            398629.0,
+            77561.2578125,
+            69781.1015625
+          ],
+          [
+            469433.59375,
+            171048.703125,
+            142177.40625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SIP_L.ply",
+        "sha256": "01c7d34d3676c5129dff8057828497889f688d23403c055fbb3b6bf727ffc3cf"
+      },
+      {
+        "name": "SIP_R",
+        "archive_entry": "SIP_R.ply",
+        "bytes": 16607,
+        "vertices": 375,
+        "faces": 746,
+        "bounds_nm": [
+          [
+            581671.8125,
+            86885.390625,
+            59720.41015625
+          ],
+          [
+            651719.875,
+            185835.5,
+            127894.703125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SIP_R.ply",
+        "sha256": "56ee1421df2c7a01ca2040b05434d5aa4f536f3461eec32a40f6395904b0d952"
+      },
+      {
+        "name": "SLP_L",
+        "archive_entry": "SLP_L.ply",
+        "bytes": 25716,
+        "vertices": 582,
+        "faces": 1160,
+        "bounds_nm": [
+          [
+            344589.5,
+            75279.0390625,
+            89959.6171875
+          ],
+          [
+            458192.8125,
+            170863.5,
+            184191.703125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SLP_L.ply",
+        "sha256": "4f1cb91475b4f0ce9af8bf51ef9274f7a65a33e6fe9007385707416425958437"
+      },
+      {
+        "name": "SLP_R",
+        "archive_entry": "SLP_R.ply",
+        "bytes": 25320,
+        "vertices": 573,
+        "faces": 1142,
+        "bounds_nm": [
+          [
+            608395.125,
+            84302.921875,
+            64306.328125
+          ],
+          [
+            710458.8125,
+            184312.09375,
+            167201.59375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SLP_R.ply",
+        "sha256": "be3650221a20eabfd48311225a2285635367e268cde09f69d0af4ba94868c7f3"
+      },
+      {
+        "name": "SMP_L",
+        "archive_entry": "SMP_L.ply",
+        "bytes": 30820,
+        "vertices": 698,
+        "faces": 1392,
+        "bounds_nm": [
+          [
+            437639.59375,
+            79049.5625,
+            22874.19921875
+          ],
+          [
+            529526.8125,
+            171055.5,
+            176766.59375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SMP_L.ply",
+        "sha256": "57e319cddfdbdf052fe1a87dcf472e1d71a4b395a1e4dd6f1d417056a1a379eb"
+      },
+      {
+        "name": "SMP_R",
+        "archive_entry": "SMP_R.ply",
+        "bytes": 29324,
+        "vertices": 664,
+        "faces": 1324,
+        "bounds_nm": [
+          [
+            518031.1875,
+            85734.4765625,
+            12800.9404296875
+          ],
+          [
+            626261.375,
+            169189.59375,
+            162395.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SMP_R.ply",
+        "sha256": "5329b9bfa006b8fbe9e34d2d0d6fdf9c60ee1c5c66c7fc26f03797adb8d0b959"
+      },
+      {
+        "name": "SPS_L",
+        "archive_entry": "SPS_L.ply",
+        "bytes": 25804,
+        "vertices": 584,
+        "faces": 1164,
+        "bounds_nm": [
+          [
+            427765.6875,
+            182499.703125,
+            128388.796875
+          ],
+          [
+            532102.875,
+            263160.0,
+            216558.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SPS_L.ply",
+        "sha256": "1b88bc9588e58828e1fe430f2e18a5df22009ff7f5081c797abb691941bb06d5"
+      },
+      {
+        "name": "SPS_R",
+        "archive_entry": "SPS_R.ply",
+        "bytes": 27784,
+        "vertices": 629,
+        "faces": 1254,
+        "bounds_nm": [
+          [
+            528869.375,
+            178617.5,
+            122925.3984375
+          ],
+          [
+            644546.625,
+            271546.59375,
+            204522.40625
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/SPS_R.ply",
+        "sha256": "aa75300e408d642dde71288df654504e7b16c0c7164801d290d21dbf0325ea0e"
+      },
+      {
+        "name": "VES_L",
+        "archive_entry": "VES_L.ply",
+        "bytes": 17915,
+        "vertices": 404,
+        "faces": 806,
+        "bounds_nm": [
+          [
+            441688.90625,
+            205803.90625,
+            91483.9765625
+          ],
+          [
+            519118.59375,
+            284216.5,
+            157012.296875
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/VES_L.ply",
+        "sha256": "c6397d8d0920dab8449da872762b57e5b79010c216f6dc27862e927379943955"
+      },
+      {
+        "name": "VES_R",
+        "archive_entry": "VES_R.ply",
+        "bytes": 18279,
+        "vertices": 413,
+        "faces": 822,
+        "bounds_nm": [
+          [
+            535784.8125,
+            206073.90625,
+            78930.84375
+          ],
+          [
+            613603.6875,
+            296329.40625,
+            151761.59375
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/VES_R.ply",
+        "sha256": "a0b7825c2ad5568019f9f64eeb5eabad381431c8cda85283930de2b1c0a4b2d6"
+      },
+      {
+        "name": "WED_L",
+        "archive_entry": "WED_L.ply",
+        "bytes": 20215,
+        "vertices": 457,
+        "faces": 910,
+        "bounds_nm": [
+          [
+            382480.5,
+            242926.203125,
+            96635.34375
+          ],
+          [
+            480133.40625,
+            301974.5,
+            193184.203125
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/WED_L.ply",
+        "sha256": "37aaa1011eb65532e54e4269044835e3d778d55070b750e86dd49a5fdf34f6d7"
+      },
+      {
+        "name": "WED_R",
+        "archive_entry": "WED_R.ply",
+        "bytes": 18103,
+        "vertices": 409,
+        "faces": 814,
+        "bounds_nm": [
+          [
+            581152.625,
+            245517.0,
+            89111.15625
+          ],
+          [
+            662847.625,
+            312968.09375,
+            164344.5
+          ]
+        ],
+        "previously_extracted": false,
+        "path": "assets/phase3w/meshes/WED_R.ply",
+        "sha256": "5707cf115735415baf3f98bfe099586d6d65fbe72d4b34ac6e2d594a904eec01"
+      }
+    ],
+    "scope": "All 78 neuropil surfaces in existing atlas archive; partial brain anatomy context, not complete brain or head"
+  },
+  "info_sha256": "13489fc0a8739a19547be94abde9ba7cd07c24fafcfeb448ecf4aa4ccb7432f2",
+  "new_morphologies": 22
+}

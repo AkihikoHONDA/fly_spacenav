@@ -1,0 +1,27 @@
+{
+  "status": "not_achieved",
+  "projection_implemented": false,
+  "accepted_mappings": [],
+  "investigated_model_types": [
+    "T4a",
+    "T4b",
+    "T4c",
+    "T4d",
+    "Mi1"
+  ],
+  "candidate_shape_ids": [
+    "ME_L",
+    "ME_R",
+    "LOP_L",
+    "LOP_R"
+  ],
+  "sources": [
+    "https://turagalab.github.io/flyvis/examples/01_flyvision_connectome/",
+    "flyvis 1.2.0 connectome/fib25-fib19_v2.2.json",
+    "https://fafbseg-py.readthedocs.io/en/latest/source/generated/fafbseg.flywire.get_neuropil_volumes.html"
+  ],
+  "evidence": "Flyvis has type and retinotopic lattice coordinates. The distributed nodes contain no FlyWire root IDs, registered anatomical XYZ, or hemisphere correspondence. Neuropil surfaces retain anatomical L/R. This bounded investigation did not establish a supported hemisphere-specific mapping; T4 types also cannot be assigned exclusively to one neuropil from these records.",
+  "display": "Static neutral anatomy plus separate accurate T4a hex-lattice activity. No cell group assigned to a mesh; no artificial activity.",
+  "aggregation": "None for anatomy. Each displayed lattice point preserves its actual model cell voltage minus its own reset baseline.",
+  "granularity": "No accepted anatomical mapping. Lattice metadata are model-cell level."
+}

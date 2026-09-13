@@ -1,0 +1,19 @@
+{
+  "height": 64,
+  "width": 64,
+  "frames": 24,
+  "dt": 0.01,
+  "warmup_seconds": 1,
+  "background": 0.5,
+  "foreground": 1,
+  "radius_px": 6,
+  "speed_px_per_second": 60,
+  "expansion_px_per_second": 24,
+  "extent": 15,
+  "kernel_size": 13,
+  "chunk_frames": 4,
+  "device": "cuda",
+  "model_path": "assets/flyvis/results/flow/0000/000",
+  "display_cell_type": "T4a",
+  "color_limit": 1.5
+}
