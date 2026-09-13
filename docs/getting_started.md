@@ -78,3 +78,13 @@ OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 .venv/bin/python -m pytest tests -m int
 数値照合・RRD照合などのPhase専用検証は[各報告書](README.md)を参照してください。Phase 5B-R時点では非GPUテスト180件が通過し、GPU prefix比較には既知の微小差による失敗が記録されています。詳細な条件と許容値は報告書に残しています。
 
 過去の成果保護スクリプトには当時のREADMEのハッシュや追記形式を検査するものがあります。今回のREADME再編は文書の意図的な更新です。過去の検証結果や基準ハッシュを書き換えて、再検証済みと扱うことはしていません。
+
+## 動画出力用のローカルツール
+
+動画exportスクリプトは`.tools/video/python`に導入した`imageio-ffmpeg`を使います。FFmpeg実行ファイルとwheelはGitに含めず、必要な環境で再取得します。
+
+```bash
+.venv/bin/python -m pip install --no-deps --target .tools/video/python imageio-ffmpeg==0.6.0
+```
+
+取得にはネットワーク接続が必要です。既に導入済みなら再インストールは不要です。動画生成には、対応するPhaseの保存ログやcaptureなどの成果物も必要です。

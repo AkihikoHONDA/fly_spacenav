@@ -1,16 +1,35 @@
-.venv/
-assets/
-outputs/
+# Local environments, downloaded tools and caches
+/.venv/
+/.tools/
 __pycache__/
+*.py[cod]
 *.egg-info/
 .pytest_cache/
 .cache/
+.ruff_cache/
+/build/
+/dist/
+
+# Downloaded research assets and generated experiment outputs
+/assets/
+/outputs/
+
+# Keep only the small, selected readouts; training candidates stay local.
+/models/**
+!/models/**/
+!/models/**/readout.npz
+
 # Keep selected documentation; generated evidence and task attachments stay local.
-docs/*
-!docs/README.md
-!docs/getting_started.md
-!docs/development_history.md
-!docs/project.md
-!docs/phase*_report.md
-!docs/assets_manifest.json
-!docs/anatomy_mapping*.json
+/docs/*
+!/docs/README.md
+!/docs/getting_started.md
+!/docs/development_history.md
+!/docs/project.md
+!/docs/phase*_report.md
+!/docs/assets_manifest.json
+!/docs/anatomy_mapping*.json
+
+# OS metadata attached to downloaded files
+*Zone.Identifier
+.DS_Store
+Thumbs.db

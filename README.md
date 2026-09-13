@@ -64,7 +64,7 @@ src/flyrendezvous/  モデルアダプター、力学、readout、記録、viewe
 configs/           Phase別の実験・表示設定
 scripts/           資産取得、実験、解析、検証、動画出力
 tests/             単体・統合テスト
-models/            Phase別readout
+models/            Phase別の確定readout（学習候補はGit除外）
 docs/              導入手順、実験報告、出典、開発履歴
 assets/            取得したモデル・解剖・表示資産（Git除外）
 outputs/           数値ログ・評価・RRD・動画（Git除外）
